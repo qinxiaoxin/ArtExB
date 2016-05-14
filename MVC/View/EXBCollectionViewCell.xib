@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="EXBCollectionViewCell" customModule="ArtExB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rgE-dJ-k0b" customClass="OLImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="sZ4-Kp-u5L"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="triangle" translatesAutoresizingMaskIntoConstraints="NO" id="m1D-be-pQG">
+                        <rect key="frame" x="174.5" y="185" width="25" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="Gl9-Lb-Uj9"/>
+                            <constraint firstAttribute="height" constant="15" id="aW8-S7-qV3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psx-CS-BSA">
+                        <rect key="frame" x="8" y="210" width="359" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="dnj-Cw-oSC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="18"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDl-0Q-i3u">
+                        <rect key="frame" x="8" y="230" width="359" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="lSM-PR-UHF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="m1D-be-pQG" firstAttribute="bottom" secondItem="rgE-dJ-k0b" secondAttribute="bottom" id="1ew-9r-rtz"/>
+                <constraint firstItem="rgE-dJ-k0b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GjW-yq-lKV"/>
+                <constraint firstItem="Psx-CS-BSA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="SZC-dp-bL9"/>
+                <constraint firstItem="m1D-be-pQG" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VDM-Rl-iXy"/>
+                <constraint firstAttribute="trailing" secondItem="rgE-dJ-k0b" secondAttribute="trailing" id="d8C-ee-91h"/>
+                <constraint firstItem="Psx-CS-BSA" firstAttribute="top" secondItem="m1D-be-pQG" secondAttribute="bottom" constant="10" id="gu1-mI-lJh"/>
+                <constraint firstAttribute="trailing" secondItem="pDl-0Q-i3u" secondAttribute="trailing" constant="8" id="ihp-yV-PUI"/>
+                <constraint firstItem="pDl-0Q-i3u" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="kgH-wZ-7b1"/>
+                <constraint firstItem="rgE-dJ-k0b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mKh-MD-g9p"/>
+                <constraint firstItem="pDl-0Q-i3u" firstAttribute="top" secondItem="Psx-CS-BSA" secondAttribute="bottom" id="r3m-Pd-Gu1"/>
+                <constraint firstAttribute="trailing" secondItem="Psx-CS-BSA" secondAttribute="trailing" constant="8" id="tN6-Lh-pEQ"/>
+            </constraints>
+            <size key="customSize" width="375" height="399"/>
+            <connections>
+                <outlet property="coverImageView" destination="rgE-dJ-k0b" id="XLX-VQ-xXd"/>
+                <outlet property="mainTitleLabel" destination="Psx-CS-BSA" id="grT-4z-chP"/>
+                <outlet property="secondTitleLabel" destination="pDl-0Q-i3u" id="djU-BK-9KL"/>
+            </connections>
+            <point key="canvasLocation" x="306.5" y="302.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="triangle" width="50" height="30"/>
+    </resources>
+</document>
