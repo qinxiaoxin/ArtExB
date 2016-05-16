@@ -5,6 +5,7 @@ PODS:
   - OLImageView (1.5.1):
     - OLImageView/Core (= 1.5.1)
   - OLImageView/Core (1.5.1)
+  - SnapKit (0.21.0)
   - SVProgressHUD (2.0.3)
   - SwiftyJSON (2.3.2)
   - SwiftyUserDefaults (2.2.0)
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - DateTools
   - Kingfisher
   - OLImageView
+  - SnapKit
   - SVProgressHUD
   - SwiftyJSON
   - SwiftyUserDefaults
@@ -23,6 +25,7 @@ SPEC CHECKSUMS:
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
   Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
   OLImageView: e03cd533ce6b1a155acb9f708ab9b2e71ea070d5
+  SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27

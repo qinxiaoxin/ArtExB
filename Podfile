@@ -10,4 +10,5 @@ target 'ArtExB' do
  pod 'SVProgressHUD'
  pod 'SwiftyUserDefaults'
  pod 'SwiftyJSON'
+ pod 'SnapKit'
 end

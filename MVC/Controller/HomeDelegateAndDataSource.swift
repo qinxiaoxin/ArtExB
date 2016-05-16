@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Kingfisher
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("EXBCell", forIndexPath: indexPath) as! EXBCollectionViewCell
@@ -34,6 +34,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        searchTextField.resignFirstResponder()
         let dvc = storyboard?.instantiateViewControllerWithIdentifier("DetailVC") as! DetailViewController
         dvc.eXBHModel = eXBArray[indexPath.row]
         presentViewController(dvc, animated: true, completion: nil)

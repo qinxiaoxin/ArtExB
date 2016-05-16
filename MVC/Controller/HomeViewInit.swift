@@ -13,7 +13,7 @@ import SwiftyJSON
 let EXBCollectionViewTopInset: CGFloat = 50
 let EXBCollectionViewBottomInset: CGFloat = 30
 
-extension ViewController {
+extension HomeViewController {
     
     func fetchModel() {
         let model1 = EXBHomeModel(mainTitle: "New Releases", secondTitle: "New albums from Jennifer Nettles, Meghan Trainor and James Blake headline this week's new releases, and also catch our reviews for the recent albums from Radiohead and Drake.", coverURL: "http://hwcdn.allmusic.com/cms/3809/home_newreleases.jpg")

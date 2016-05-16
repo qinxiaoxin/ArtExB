@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     var eXBArray = [EXBHomeModel]()
     
@@ -23,14 +23,33 @@ class ViewController: UIViewController {
             searchTextField.attributedPlaceholder = NSAttributedString(string: "Search", attributes: [NSForegroundColorAttributeName : UIColor.grayColor()])
             searchTextField.layer.borderColor = UIColor.grayColor().CGColor
             searchTextField.layer.borderWidth = 1.0
+            searchTextField.delegate = self
         }
     }
+    
+    @IBOutlet weak var logoImageView: UIImageView! {
+        didSet {
+            logoImageView.userInteractionEnabled = true
+            logoImageView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(HomeViewController.logoAction)))
+        }
+    }
+    
+    
+
     
     var eXBCollectionView: UICollectionView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchTimeLine()
+    }
+    
+    
+    //MARK: - Action
+    
+    func logoAction() {
+        //分类条目
+        
     }
 
 

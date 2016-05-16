@@ -21,6 +21,7 @@ class DetailViewController: UIViewController {
             searchTextField.attributedPlaceholder = NSAttributedString(string: "Search", attributes: [NSForegroundColorAttributeName : UIColor.grayColor()])
             searchTextField.layer.borderColor = UIColor.grayColor().CGColor
             searchTextField.layer.borderWidth = 1.0
+            searchTextField.delegate = self
         }
     }
     
@@ -33,6 +34,25 @@ class DetailViewController: UIViewController {
         }
     }
     
+    @IBOutlet weak var eXBName: UILabel!
+    
+    @IBOutlet weak var eXBArtist: UILabel!
+    
+    @IBOutlet weak var eXBCurator: UILabel!
+    
+    @IBOutlet weak var eXBTime: UILabel!
+    
+    @IBOutlet weak var eXBAdress: UILabel!
+    
+    @IBOutlet weak var eXBArticle: UILabel!
+    
+    @IBOutlet weak var enterButton: UIButton! {
+        didSet {
+            enterButton.alpha = 0
+        }
+    }
+    
+    
     func backHomepage() {
         dismissViewControllerAnimated(true, completion: nil)
     }
@@ -42,10 +62,19 @@ class DetailViewController: UIViewController {
         initView()
     }
     
-    private func initView() {
-        if let model = eXBHModel {
-            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        UIView.animateWithDuration(0.5) { 
+            self.enterButton.alpha = 1.0
+            self.enterButton.layer.cornerRadius = self.enterButton.frame.size.height / 2
         }
+    }
+    
+    
+    //MARK: - Action
+    
+    func extendAction() {
+        
     }
 
 }

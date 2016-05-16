@@ -89,6 +89,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ArtExB/Kingfisher.framework"
   install_framework "Pods-ArtExB/OLImageView.framework"
   install_framework "Pods-ArtExB/SVProgressHUD.framework"
+  install_framework "Pods-ArtExB/SnapKit.framework"
   install_framework "Pods-ArtExB/SwiftyJSON.framework"
   install_framework "Pods-ArtExB/SwiftyUserDefaults.framework"
 fi
@@ -98,6 +99,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ArtExB/Kingfisher.framework"
   install_framework "Pods-ArtExB/OLImageView.framework"
   install_framework "Pods-ArtExB/SVProgressHUD.framework"
+  install_framework "Pods-ArtExB/SnapKit.framework"
   install_framework "Pods-ArtExB/SwiftyJSON.framework"
   install_framework "Pods-ArtExB/SwiftyUserDefaults.framework"
 fi

@@ -11,7 +11,7 @@
 		764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */; };
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
 		769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA471CE6E82D000A44EA /* AppDelegate.swift */; };
-		769EBA4A1CE6E82D000A44EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA491CE6E82D000A44EA /* ViewController.swift */; };
+		769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA491CE6E82D000A44EA /* HomeViewController.swift */; };
 		769EBA4D1CE6E82D000A44EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA4B1CE6E82D000A44EA /* Main.storyboard */; };
 		769EBA4F1CE6E82D000A44EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA4E1CE6E82D000A44EA /* Assets.xcassets */; };
 		769EBA521CE6E82D000A44EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA501CE6E82D000A44EA /* LaunchScreen.storyboard */; };
@@ -19,7 +19,10 @@
 		769EBA631CE70D71000A44EA /* EXBFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA621CE70D71000A44EA /* EXBFlowLayout.swift */; };
 		769EBA661CE70DED000A44EA /* EXBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */; };
 		769EBA671CE70DED000A44EA /* EXBCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */; };
-		769EBA6A1CE7187A000A44EA /* EXBDelegateAndDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA691CE7187A000A44EA /* EXBDelegateAndDataSource.swift */; };
+		769EBA6A1CE7187A000A44EA /* HomeDelegateAndDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */; };
+		76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */; };
+		76F1B2351CEA147B0018D408 /* DetailTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B2341CEA147B0018D408 /* DetailTextFieldDelegate.swift */; };
+		76F1B2371CEA16680018D408 /* DetailViewInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B2361CEA16680018D408 /* DetailViewInit.swift */; };
 		9C29CE29A81F34FA66F04F0C /* Pods_ArtExB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B614C72FC11C262D06EEF4CB /* Pods_ArtExB.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +33,7 @@
 		764681D31CE7800B00E66ED0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		769EBA441CE6E82D000A44EA /* ArtExB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtExB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EBA471CE6E82D000A44EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		769EBA491CE6E82D000A44EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ArtExB/ViewController.swift; sourceTree = "<group>"; };
+		769EBA491CE6E82D000A44EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../ArtExB/HomeViewController.swift; sourceTree = "<group>"; };
 		769EBA4C1CE6E82D000A44EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		769EBA4E1CE6E82D000A44EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769EBA511CE6E82D000A44EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,7 +42,10 @@
 		769EBA621CE70D71000A44EA /* EXBFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBFlowLayout.swift; sourceTree = "<group>"; };
 		769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCollectionViewCell.swift; sourceTree = "<group>"; };
 		769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EXBCollectionViewCell.xib; sourceTree = "<group>"; };
-		769EBA691CE7187A000A44EA /* EXBDelegateAndDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBDelegateAndDataSource.swift; sourceTree = "<group>"; };
+		769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDelegateAndDataSource.swift; sourceTree = "<group>"; };
+		76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		76F1B2341CEA147B0018D408 /* DetailTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTextFieldDelegate.swift; sourceTree = "<group>"; };
+		76F1B2361CEA16680018D408 /* DetailViewInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewInit.swift; sourceTree = "<group>"; };
 		A4C7EEF71E8D82A2A76949E9 /* Pods-ArtExB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtExB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtExB/Pods-ArtExB.debug.xcconfig"; sourceTree = "<group>"; };
 		B614C72FC11C262D06EEF4CB /* Pods_ArtExB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtExB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				764681D31CE7800B00E66ED0 /* DetailViewController.swift */,
+				76F1B2361CEA16680018D408 /* DetailViewInit.swift */,
+				76F1B2341CEA147B0018D408 /* DetailTextFieldDelegate.swift */,
 			);
 			name = Detail;
 			sourceTree = "<group>";
@@ -178,9 +186,10 @@
 		769EBA681CE71851000A44EA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				769EBA491CE6E82D000A44EA /* ViewController.swift */,
+				769EBA491CE6E82D000A44EA /* HomeViewController.swift */,
 				769EBA601CE708FC000A44EA /* HomeViewInit.swift */,
-				769EBA691CE7187A000A44EA /* EXBDelegateAndDataSource.swift */,
+				769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */,
+				76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -317,13 +326,16 @@
 			files = (
 				764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */,
 				764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */,
-				769EBA4A1CE6E82D000A44EA /* ViewController.swift in Sources */,
+				769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */,
 				769EBA611CE708FC000A44EA /* HomeViewInit.swift in Sources */,
 				769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */,
-				769EBA6A1CE7187A000A44EA /* EXBDelegateAndDataSource.swift in Sources */,
+				76F1B2371CEA16680018D408 /* DetailViewInit.swift in Sources */,
+				769EBA6A1CE7187A000A44EA /* HomeDelegateAndDataSource.swift in Sources */,
 				769EBA661CE70DED000A44EA /* EXBCollectionViewCell.swift in Sources */,
 				769EBA631CE70D71000A44EA /* EXBFlowLayout.swift in Sources */,
+				76F1B2351CEA147B0018D408 /* DetailTextFieldDelegate.swift in Sources */,
 				764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */,
+				76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
