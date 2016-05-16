@@ -13,7 +13,7 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rgE-dJ-k0b" customClass="OLImageView">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rgE-dJ-k0b" customClass="OLImageView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="200" id="sZ4-Kp-u5L"/>
@@ -47,6 +47,7 @@
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="m1D-be-pQG" firstAttribute="bottom" secondItem="rgE-dJ-k0b" secondAttribute="bottom" id="1ew-9r-rtz"/>
                 <constraint firstItem="rgE-dJ-k0b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GjW-yq-lKV"/>

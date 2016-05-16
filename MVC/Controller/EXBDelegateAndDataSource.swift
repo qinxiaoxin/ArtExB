@@ -8,16 +8,17 @@
 
 import Foundation
 import UIKit
+import Kingfisher
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("EXBCell", forIndexPath: indexPath) as! EXBCollectionViewCell
-//        let data = NSData(contentsOfFile: NSBundle.mainBundle().pathForResource("Directions", ofType: "geojson")!)
-        
-        cell.coverImageView.image = nil
-        
+        cell.coverImageView.kf_setImageWithURL(NSURL(string: eXBArray[indexPath.row].coverURL)!)
+        cell.mainTitleLabel.text = eXBArray[indexPath.row].mainTitle
+        cell.secondTitleLabel.text = eXBArray[indexPath.row].secondTitle
         return cell
+        
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
@@ -29,7 +30,14 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return eXBArray.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let dvc = storyboard?.instantiateViewControllerWithIdentifier("DetailVC") as! DetailViewController
+        dvc.eXBHModel = eXBArray[indexPath.row]
+        presentViewController(dvc, animated: true, completion: nil)
+        
     }
 
 }

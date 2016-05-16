@@ -9,4 +9,5 @@ target 'ArtExB' do
  pod 'Alamofire'
  pod 'SVProgressHUD'
  pod 'SwiftyUserDefaults'
+ pod 'SwiftyJSON'
 end

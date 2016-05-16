@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  ArtExB
 //
 //  Created by Xin Qin on 5/14/16.
@@ -8,12 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
     
-    var eXBArray = [EXBHomeModel]()
-    
-    @IBOutlet weak var fakeNavBar: UIImageView!
-    
+    var eXBHModel: EXBHomeModel?
+
     @IBOutlet weak var searchTextField: UITextField! {
         didSet {
             let leftView = UIView()
@@ -26,13 +24,28 @@ class ViewController: UIViewController {
         }
     }
     
-    var eXBCollectionView: UICollectionView?
+    @IBOutlet weak var coverImageView: UIImageView!
+    
+    @IBOutlet weak var logoImageView: UIImageView! {
+        didSet {
+            logoImageView.userInteractionEnabled = true
+            logoImageView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(DetailViewController.backHomepage)))
+        }
+    }
+    
+    func backHomepage() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchTimeLine()
+        initView()
+    }
+    
+    private func initView() {
+        if let model = eXBHModel {
+            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
+        }
     }
 
-
 }
-
