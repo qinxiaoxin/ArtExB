@@ -37,7 +37,7 @@ extension HomeViewController {
         eXBCollectionView?.dataSource = self
         eXBCollectionView?.delegate = self
         eXBCollectionView?.contentInset = UIEdgeInsets(top: EXBCollectionViewTopInset, left: 0, bottom: EXBCollectionViewBottomInset, right: 0)
-        view.insertSubview(eXBCollectionView!, belowSubview: fakeNavBar)
+        view.insertSubview(eXBCollectionView!, belowSubview: topBarView)
         if eXBCollectionView != nil {
             fetchModel()
         }
