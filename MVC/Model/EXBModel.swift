@@ -12,4 +12,10 @@ struct EXBHomeModel {
     let mainTitle: String
     let secondTitle: String
     let coverURL: String
+    let webURL: String
+    let artist: String
+    let curator: String
+    let time: String
+    let venue: String
+    let artical: String
 }

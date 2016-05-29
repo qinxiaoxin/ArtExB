@@ -9,19 +9,22 @@
 import UIKit
 
 var MenuOpen = false
-let ArtMenuFullHeight: CGFloat = 280
+let ArtMenuFullHeight: CGFloat = 320
 let ArtExBColor = UIColor(red: 80.0/255.0, green: 227.0/255.0, blue: 194.0/255.0, alpha: 1.0)
 
 enum ArtExBSelectLanguage: Int {
-    case English = 0;
-    case Chinese
+    case Artist = 0
+    case Curator
+    case Venue
     
     var Language: String {
         switch self {
-        case .English:
+        case .Artist:
             return "english"
-        case .Chinese:
+        case .Curator:
             return "chinese"
+        case .Venue:
+            return "venue"
         }
     }
 }
@@ -63,8 +66,10 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var topBarViewHeight: NSLayoutConstraint!
     
     
-    @IBOutlet weak var englishButton: UIButton!
-    @IBOutlet weak var chineseButton: UIButton!
+    @IBOutlet weak var artistButton: UIButton!
+    @IBOutlet weak var curatorButton: UIButton!
+    @IBOutlet weak var venueButton: UIButton!
+    
 
     var eXBCollectionView: UICollectionView?
     
@@ -73,17 +78,20 @@ class HomeViewController: UIViewController {
         didSet {
             resetMenu()
             switch self.menuLanguage! {
-            case .English:
-                self.englishButton.setTitleColor(ArtExBColor, forState: .Normal)
-            case .Chinese:
-                self.chineseButton.setTitleColor(ArtExBColor, forState: .Normal)
+            case .Artist:
+                self.artistButton.setTitleColor(ArtExBColor, forState: .Normal)
+            case .Curator:
+                self.curatorButton.setTitleColor(ArtExBColor, forState: .Normal)
+            case .Venue:
+                self.venueButton.setTitleColor(ArtExBColor, forState: .Normal)
             }
         }
     }
     
     func resetMenu() {
-        self.englishButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        self.chineseButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        self.artistButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        self.curatorButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        self.venueButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
     }
     
     override func viewDidLoad() {
@@ -93,7 +101,7 @@ class HomeViewController: UIViewController {
         
         blurView = UIVisualEffectView(effect: darkBlur)
         
-        menuLanguage = .English
+        menuLanguage = .Artist
         
     }
     
@@ -105,8 +113,9 @@ class HomeViewController: UIViewController {
         if MenuOpen {
             MenuOpen = false
             
-            englishButton.hidden = true
-            chineseButton.hidden = true
+            artistButton.hidden = true
+            curatorButton.hidden = true
+            venueButton.hidden = true
             
             UIView.animateWithDuration(0.3, delay: 0.1, options: .AllowUserInteraction, animations: {
                     if let blurView = self.blurView {
@@ -134,8 +143,9 @@ class HomeViewController: UIViewController {
             MenuOpen = true
             self.addBlurViewOnTopView()
             
-            englishButton.hidden = false
-            chineseButton.hidden = false
+            artistButton.hidden = false
+            curatorButton.hidden = false
+            venueButton.hidden = false
             
             UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.89, initialSpringVelocity: 15, options: .AllowUserInteraction, animations: { () -> Void in
                 
@@ -166,13 +176,18 @@ class HomeViewController: UIViewController {
     
     
     
-    @IBAction func english(sender: UIButton) {
-        handleLanguage(.English)
+    @IBAction func artistAction(sender: UIButton) {
+        handleLanguage(.Artist)
     }
     
-    @IBAction func chinese(sender: UIButton) {
-        handleLanguage(.Chinese)
+    @IBAction func curatorAction(sender: UIButton) {
+        handleLanguage(.Curator)
     }
+    
+    @IBAction func venueAction(sender: UIButton) {
+        handleLanguage(.Venue)
+    }
+    
     
     func handleLanguage(language: ArtExBSelectLanguage) {
         logoAction(self)

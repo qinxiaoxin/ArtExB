@@ -42,15 +42,11 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var eXBTime: UILabel!
     
-    @IBOutlet weak var eXBAdress: UILabel!
+    @IBOutlet weak var eXBVenue: UILabel!
     
     @IBOutlet weak var eXBArticle: UILabel!
     
-    @IBOutlet weak var enterButton: UIButton! {
-        didSet {
-            enterButton.alpha = 0
-        }
-    }
+    var enterButton: UIButton!
     
     
     func backHomepage() {
@@ -75,6 +71,13 @@ class DetailViewController: UIViewController {
     
     func extendAction() {
         
+    }
+    
+    func enterAction() {
+        let vc: WebViewController = storyboard?.instantiateViewControllerWithIdentifier("WebVC") as! WebViewController
+        vc.url = eXBHModel?.webURL
+        let nav = UINavigationController(rootViewController: vc)
+        presentViewController(nav, animated: true, completion: nil)
     }
 
 }
