@@ -15,8 +15,8 @@ class ExBTransitionPush: NSObject, UIViewControllerAnimatedTransitioning {
     }
     
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
-        let fromVC = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as! HomeViewController
-        let toVC = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey) as! DetailViewController
+        let fromVC = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)! as UIViewController
+        let toVC = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)! as UIViewController
         let container = transitionContext.containerView()
         container?.addSubview(toVC.view)
         

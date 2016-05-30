@@ -15,8 +15,8 @@ class ExBTransitionPop: NSObject, UIViewControllerAnimatedTransitioning {
     }
     
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
-        let fromVC = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as! DetailViewController
-        let toVC = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey) as! HomeViewController
+        let fromVC = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)! as UIViewController
+        let toVC = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)! as UIViewController
         let container = transitionContext.containerView()
         container?.addSubview(toVC.view)
         container?.bringSubviewToFront(fromVC.view)

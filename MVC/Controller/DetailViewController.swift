@@ -55,6 +55,9 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.transitioningDelegate = self
+        
         initView()
     }
     
@@ -77,6 +80,7 @@ class DetailViewController: UIViewController {
         let vc: WebViewController = storyboard?.instantiateViewControllerWithIdentifier("WebVC") as! WebViewController
         vc.url = eXBHModel?.webURL
         let nav = UINavigationController(rootViewController: vc)
+        nav.transitioningDelegate = self
         presentViewController(nav, animated: true, completion: nil)
     }
 

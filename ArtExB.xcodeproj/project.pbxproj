@@ -23,6 +23,7 @@
 		76B27A251CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */; };
 		76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */; };
 		76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */; };
+		76B27A2D1CFC934600CC70E9 /* DetailTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A2C1CFC934600CC70E9 /* DetailTransitioningDelegate.swift */; };
 		76C69E811CFACF28000E952E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C69E801CFACF28000E952E /* WebViewController.swift */; };
 		76C69E831CFADBB6000E952E /* ArtExB-Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C69E821CFADBB6000E952E /* ArtExB-Define.swift */; };
 		76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */; };
@@ -51,6 +52,7 @@
 		76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTransitioningDelegate.swift; sourceTree = "<group>"; };
 		76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBTransitionPop.swift; sourceTree = "<group>"; };
 		76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBTransitionPush.swift; sourceTree = "<group>"; };
+		76B27A2C1CFC934600CC70E9 /* DetailTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTransitioningDelegate.swift; sourceTree = "<group>"; };
 		76C69E801CFACF28000E952E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		76C69E821CFADBB6000E952E /* ArtExB-Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ArtExB-Define.swift"; sourceTree = "<group>"; };
 		76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTextFieldDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				764681D31CE7800B00E66ED0 /* DetailViewController.swift */,
 				76F1B2361CEA16680018D408 /* DetailViewInit.swift */,
 				76F1B2341CEA147B0018D408 /* DetailTextFieldDelegate.swift */,
+				76B27A2C1CFC934600CC70E9 /* DetailTransitioningDelegate.swift */,
 			);
 			name = Detail;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */,
+				76B27A2D1CFC934600CC70E9 /* DetailTransitioningDelegate.swift in Sources */,
 				764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */,
 				764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */,
 				76C69E831CFADBB6000E952E /* ArtExB-Define.swift in Sources */,
