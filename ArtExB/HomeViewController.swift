@@ -97,6 +97,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.transitioningDelegate = self
+        
         fetchTimeLine()
         
         blurView = UIVisualEffectView(effect: darkBlur)
@@ -197,8 +199,6 @@ class HomeViewController: UIViewController {
         }
         
     }
-    
-
 
 }
 

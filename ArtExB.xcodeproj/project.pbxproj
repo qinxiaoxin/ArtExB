@@ -20,6 +20,9 @@
 		769EBA661CE70DED000A44EA /* EXBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */; };
 		769EBA671CE70DED000A44EA /* EXBCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */; };
 		769EBA6A1CE7187A000A44EA /* HomeDelegateAndDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */; };
+		76B27A251CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */; };
+		76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */; };
+		76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */; };
 		76C69E811CFACF28000E952E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C69E801CFACF28000E952E /* WebViewController.swift */; };
 		76C69E831CFADBB6000E952E /* ArtExB-Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C69E821CFADBB6000E952E /* ArtExB-Define.swift */; };
 		76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */; };
@@ -45,6 +48,9 @@
 		769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCollectionViewCell.swift; sourceTree = "<group>"; };
 		769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EXBCollectionViewCell.xib; sourceTree = "<group>"; };
 		769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDelegateAndDataSource.swift; sourceTree = "<group>"; };
+		76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTransitioningDelegate.swift; sourceTree = "<group>"; };
+		76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBTransitionPop.swift; sourceTree = "<group>"; };
+		76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBTransitionPush.swift; sourceTree = "<group>"; };
 		76C69E801CFACF28000E952E /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		76C69E821CFADBB6000E952E /* ArtExB-Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ArtExB-Define.swift"; sourceTree = "<group>"; };
 		76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTextFieldDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +177,8 @@
 			children = (
 				769EBA621CE70D71000A44EA /* EXBFlowLayout.swift */,
 				76C69E821CFADBB6000E952E /* ArtExB-Define.swift */,
+				76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */,
+				76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 				769EBA601CE708FC000A44EA /* HomeViewInit.swift */,
 				769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */,
 				76F1B2321CEA108E0018D408 /* HomeTextFieldDelegate.swift */,
+				76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -338,18 +347,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */,
 				764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */,
 				764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */,
 				76C69E831CFADBB6000E952E /* ArtExB-Define.swift in Sources */,
 				769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */,
 				769EBA611CE708FC000A44EA /* HomeViewInit.swift in Sources */,
 				769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */,
+				76B27A251CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift in Sources */,
 				76F1B2371CEA16680018D408 /* DetailViewInit.swift in Sources */,
 				769EBA6A1CE7187A000A44EA /* HomeDelegateAndDataSource.swift in Sources */,
 				769EBA661CE70DED000A44EA /* EXBCollectionViewCell.swift in Sources */,
 				769EBA631CE70D71000A44EA /* EXBFlowLayout.swift in Sources */,
 				76F1B2351CEA147B0018D408 /* DetailTextFieldDelegate.swift in Sources */,
 				764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */,
+				76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */,
 				76C69E811CFACF28000E952E /* WebViewController.swift in Sources */,
 				76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */,
 			);

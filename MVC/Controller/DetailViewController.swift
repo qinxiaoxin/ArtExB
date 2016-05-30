@@ -50,7 +50,7 @@ class DetailViewController: UIViewController {
     
     
     func backHomepage() {
-        dismissViewControllerAnimated(true, completion: nil)
+        (self.transitioningDelegate as! UIViewController).dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {

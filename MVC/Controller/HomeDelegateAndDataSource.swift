@@ -37,6 +37,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         searchTextField.resignFirstResponder()
         let dvc = storyboard?.instantiateViewControllerWithIdentifier("DetailVC") as! DetailViewController
         dvc.eXBHModel = eXBArray[indexPath.row]
+        dvc.transitioningDelegate = self
         presentViewController(dvc, animated: true, completion: nil)
         
     }
