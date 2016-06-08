@@ -12,6 +12,10 @@ class WebViewController: UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
     
+    let backGroundView = UIView()
+    
+    let shareView = ShareView()
+    
     var url: String?
 
     override func viewDidLoad() {
@@ -25,7 +29,7 @@ class WebViewController: UIViewController {
     
     private func initView() {
         //nav bar
-        navigationController?.navigationBar.topItem?.title = "ArtExB"
+        navigationController?.navigationBar.topItem?.title = "ARTEXB"
         navigationController?.navigationBar.barTintColor = ArtExBRGB("000000")
         navigationController?.navigationBar.translucent = false
         
@@ -44,6 +48,18 @@ class WebViewController: UIViewController {
         //status bar
         _ = NSDictionary(object: UIColor.whiteColor(),forKey: NSForegroundColorAttributeName)
         navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        
+        //share panel view
+        backGroundView.frame = CGRectMake(0, 0, view.frame.width, view.frame.height)
+        backGroundView.backgroundColor = UIColor.blackColor()
+        backGroundView.alpha = 0.8
+        backGroundView.hidden = true
+        backGroundView.userInteractionEnabled = true
+        backGroundView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WebViewController.scrollBack)))
+        view.addSubview(backGroundView)
+        
+        shareView.frame = CGRectMake(0, view.frame.height, view.frame.width, 280)
+        backGroundView.addSubview(shareView)
     }
     
     func backAction() {
@@ -51,7 +67,17 @@ class WebViewController: UIViewController {
     }
 
     func shareAction() {
-        
+        UIView.animateWithDuration(0.3) {
+            self.shareView.frame = CGRectMake(0, self.view.frame.height - 280, self.view.frame.width, 280)
+            self.backGroundView.hidden = false
+        }
+    }
+    
+    func scrollBack() {
+        UIView.animateWithDuration(0.3) {
+            self.shareView.frame = CGRectMake(0, self.view.frame.height, self.view.frame.width, 280)
+            self.backGroundView.hidden = true
+        }
     }
     
 

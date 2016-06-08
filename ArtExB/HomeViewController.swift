@@ -20,9 +20,9 @@ enum ArtExBSelectLanguage: Int {
     var Language: String {
         switch self {
         case .Artist:
-            return "english"
+            return "artist"
         case .Curator:
-            return "chinese"
+            return "curator"
         case .Venue:
             return "venue"
         }

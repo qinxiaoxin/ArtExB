@@ -11,4 +11,5 @@ target 'ArtExB' do
  pod 'SwiftyUserDefaults'
  pod 'SwiftyJSON'
  pod 'SnapKit'
+ pod 'UMengSocialCOM', '~> 5.2.1'
 end

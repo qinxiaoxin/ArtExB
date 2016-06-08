@@ -10,6 +10,7 @@
 		764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681CE1CE7270600E66ED0 /* EXBModel.swift */; };
 		764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */; };
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
+		76516D6A1D084D48003CB40E /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516D691D084D48003CB40E /* ShareView.swift */; };
 		769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA471CE6E82D000A44EA /* AppDelegate.swift */; };
 		769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA491CE6E82D000A44EA /* HomeViewController.swift */; };
 		769EBA4D1CE6E82D000A44EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA4B1CE6E82D000A44EA /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		764681CE1CE7270600E66ED0 /* EXBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBModel.swift; sourceTree = "<group>"; };
 		764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCellScrollDelegate.swift; sourceTree = "<group>"; };
 		764681D31CE7800B00E66ED0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		76516D691D084D48003CB40E /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 		769EBA441CE6E82D000A44EA /* ArtExB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtExB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EBA471CE6E82D000A44EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		769EBA491CE6E82D000A44EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../ArtExB/HomeViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */,
 				769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */,
 				764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */,
+				76516D691D084D48003CB40E /* ShareView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				TargetAttributes = {
 					769EBA431CE6E82D000A44EA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6T7YE3W6XN;
 					};
 				};
 			};
@@ -367,6 +371,7 @@
 				764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */,
 				76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */,
 				76C69E811CFACF28000E952E /* WebViewController.swift in Sources */,
+				76516D6A1D084D48003CB40E /* ShareView.swift in Sources */,
 				76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,13 +486,13 @@
 			baseConfigurationReference = A4C7EEF71E8D82A2A76949E9 /* Pods-ArtExB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: ZICHEN WANG (CE27WTEZZH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6db1c2a3-f3fd-4320-9881-9bbaf66ad4e2";
+				PROVISIONING_PROFILE = "4ddceae8-4e4b-4ae8-a21b-7247544d263f";
 			};
 			name = Debug;
 		};
@@ -496,13 +501,13 @@
 			baseConfigurationReference = 51B54F3067D31D12983EF394 /* Pods-ArtExB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: ZICHEN WANG (CE27WTEZZH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6db1c2a3-f3fd-4320-9881-9bbaf66ad4e2";
+				PROVISIONING_PROFILE = "4ddceae8-4e4b-4ae8-a21b-7247544d263f";
 			};
 			name = Release;
 		};
