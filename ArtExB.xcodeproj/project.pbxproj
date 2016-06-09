@@ -11,6 +11,17 @@
 		764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */; };
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
 		76516D6A1D084D48003CB40E /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516D691D084D48003CB40E /* ShareView.swift */; };
+		76516D7C1D091C8A003CB40E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76516D7E1D091C8A003CB40E /* Localizable.strings */; };
+		76516D8B1D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D811D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png */; };
+		76516D8C1D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D821D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png */; };
+		76516D8D1D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */; };
+		76516D8E1D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */; };
+		76516D8F1D0923BA003CB40E /* 徐冰台北回顾展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */; };
+		76516D901D0923BA003CB40E /* 杉本博司.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D861D0923BA003CB40E /* 杉本博司.png */; };
+		76516D911D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D871D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png */; };
+		76516D921D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D881D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png */; };
+		76516D931D0923BA003CB40E /* 艾未未.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D891D0923BA003CB40E /* 艾未未.png */; };
+		76516D941D0923BA003CB40E /* 道行之而成·潘公凯作品展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */; };
 		769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA471CE6E82D000A44EA /* AppDelegate.swift */; };
 		769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA491CE6E82D000A44EA /* HomeViewController.swift */; };
 		769EBA4D1CE6E82D000A44EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA4B1CE6E82D000A44EA /* Main.storyboard */; };
@@ -39,6 +50,21 @@
 		764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCellScrollDelegate.swift; sourceTree = "<group>"; };
 		764681D31CE7800B00E66ED0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		76516D691D084D48003CB40E /* ShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		76516D781D091C6E003CB40E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		76516D791D091C6E003CB40E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		76516D7D1D091C8A003CB40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		76516D7F1D091C8C003CB40E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		76516D801D091EB1003CB40E /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
+		76516D811D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " 保利十年·艺术品秋季拍卖会.png"; sourceTree = "<group>"; };
+		76516D821D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " 瓯江草堂——海上画派精品展.png"; sourceTree = "<group>"; };
+		76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万物生——姥姥家与博斯的乐园.png"; sourceTree = "<group>"; };
+		76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻真的宇宙——2013威尼斯钟飙艺术现场.png"; sourceTree = "<group>"; };
+		76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "徐冰台北回顾展.png"; sourceTree = "<group>"; };
+		76516D861D0923BA003CB40E /* 杉本博司.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杉本博司.png"; sourceTree = "<group>"; };
+		76516D871D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第二届《诗书画》年度展——西湖.png"; sourceTree = "<group>"; };
+		76516D881D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自在途程——靳尚谊油画语言研究展.png"; sourceTree = "<group>"; };
+		76516D891D0923BA003CB40E /* 艾未未.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾未未.png"; sourceTree = "<group>"; };
+		76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "道行之而成·潘公凯作品展.png"; sourceTree = "<group>"; };
 		769EBA441CE6E82D000A44EA /* ArtExB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtExB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EBA471CE6E82D000A44EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		769EBA491CE6E82D000A44EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../ArtExB/HomeViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +161,7 @@
 				769EBA4E1CE6E82D000A44EA /* Assets.xcassets */,
 				769EBA501CE6E82D000A44EA /* LaunchScreen.storyboard */,
 				769EBA531CE6E82D000A44EA /* Info.plist */,
+				76516D7E1D091C8A003CB40E /* Localizable.strings */,
 			);
 			path = ArtExB;
 			sourceTree = "<group>";
@@ -218,6 +245,17 @@
 		769EBA6B1CE71B53000A44EA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				76516D811D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png */,
+				76516D821D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png */,
+				76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */,
+				76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */,
+				76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */,
+				76516D861D0923BA003CB40E /* 杉本博司.png */,
+				76516D871D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png */,
+				76516D881D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png */,
+				76516D891D0923BA003CB40E /* 艾未未.png */,
+				76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */,
+				76516D801D091EB1003CB40E /* Directions.geojson */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -276,6 +314,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 769EBA3B1CE6E82D000A44EA;
 			productRefGroup = 769EBA451CE6E82D000A44EA /* Products */;
@@ -292,9 +331,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76516D8C1D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png in Resources */,
+				76516D911D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png in Resources */,
+				76516D8B1D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png in Resources */,
+				76516D901D0923BA003CB40E /* 杉本博司.png in Resources */,
+				76516D8F1D0923BA003CB40E /* 徐冰台北回顾展.png in Resources */,
+				76516D7C1D091C8A003CB40E /* Localizable.strings in Resources */,
 				769EBA671CE70DED000A44EA /* EXBCollectionViewCell.xib in Resources */,
+				76516D8D1D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png in Resources */,
+				76516D931D0923BA003CB40E /* 艾未未.png in Resources */,
+				76516D941D0923BA003CB40E /* 道行之而成·潘公凯作品展.png in Resources */,
 				769EBA521CE6E82D000A44EA /* LaunchScreen.storyboard in Resources */,
+				76516D8E1D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png in Resources */,
 				769EBA4F1CE6E82D000A44EA /* Assets.xcassets in Resources */,
+				76516D921D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png in Resources */,
 				769EBA4D1CE6E82D000A44EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +429,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		76516D7E1D091C8A003CB40E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76516D7D1D091C8A003CB40E /* en */,
+				76516D7F1D091C8C003CB40E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		769EBA4B1CE6E82D000A44EA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				769EBA4C1CE6E82D000A44EA /* Base */,
+				76516D781D091C6E003CB40E /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -391,6 +451,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				769EBA511CE6E82D000A44EA /* Base */,
+				76516D791D091C6E003CB40E /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

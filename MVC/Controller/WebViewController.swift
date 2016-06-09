@@ -56,7 +56,7 @@ class WebViewController: UIViewController {
         backGroundView.hidden = true
         backGroundView.userInteractionEnabled = true
         backGroundView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WebViewController.scrollBack)))
-        view.addSubview(backGroundView)
+        navigationController?.view.addSubview(backGroundView)
         
         shareView.frame = CGRectMake(0, view.frame.height, view.frame.width, 280)
         backGroundView.addSubview(shareView)
@@ -68,14 +68,14 @@ class WebViewController: UIViewController {
 
     func shareAction() {
         UIView.animateWithDuration(0.3) {
-            self.shareView.frame = CGRectMake(0, self.view.frame.height - 280, self.view.frame.width, 280)
+            self.shareView.frame = CGRectMake(0, (self.navigationController?.view.frame.height)! - 280, (self.navigationController?.view.frame.width)!, 280)
             self.backGroundView.hidden = false
         }
     }
     
     func scrollBack() {
         UIView.animateWithDuration(0.3) {
-            self.shareView.frame = CGRectMake(0, self.view.frame.height, self.view.frame.width, 280)
+            self.shareView.frame = CGRectMake(0, (self.navigationController?.view.frame.height)!, (self.navigationController?.view.frame.width)!, 280)
             self.backGroundView.hidden = true
         }
     }

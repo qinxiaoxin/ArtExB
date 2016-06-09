@@ -12,18 +12,6 @@ import SnapKit
 
 let MagicLabelContentSize: CGFloat = 558
 
-//@IBOutlet weak var eXBName: UILabel!
-//
-//@IBOutlet weak var eXBArtist: UILabel!
-//
-//@IBOutlet weak var eXBCurator: UILabel!
-//
-//@IBOutlet weak var eXBTime: UILabel!
-//
-//@IBOutlet weak var eXBAdress: UILabel!
-//
-//@IBOutlet weak var eXBArticle: UILabel!
-
 extension DetailViewController {
     
     //MARK: - Normal Methods
@@ -41,7 +29,7 @@ extension DetailViewController {
         if let model = eXBHModel {
             
             //名字
-            eXBName.text = model.mainTitle
+            eXBName.text = model.name
             
             //艺术家
             eXBArtist.text = model.artist
@@ -50,17 +38,18 @@ extension DetailViewController {
             eXBCurator.text = model.curator
             
             //时间
-            eXBCurator.text = model.time
+            eXBTime.text = model.time
             
             //场地
-            eXBCurator.text = model.venue
+            eXBVenue.text = model.venue
             
             //文章介绍
             eXBArticle.text = model.artical
             
             //封面
-            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
-            eXBName.text = model.mainTitle
+//            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
+            coverImageView.image = UIImage(named: model.coverURL)
+            eXBName.text = model.name
             
             //Enter按钮
             enterButton = UIButton()

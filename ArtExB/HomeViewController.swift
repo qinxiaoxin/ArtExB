@@ -70,6 +70,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var curatorButton: UIButton!
     @IBOutlet weak var venueButton: UIButton!
     
+    @IBOutlet weak var aboutLabel: UILabel!
 
     var eXBCollectionView: UICollectionView?
     
@@ -145,9 +146,11 @@ class HomeViewController: UIViewController {
             MenuOpen = true
             self.addBlurViewOnTopView()
             
-            artistButton.hidden = false
-            curatorButton.hidden = false
-            venueButton.hidden = false
+//            artistButton.hidden = false
+//            curatorButton.hidden = false
+//            venueButton.hidden = false
+            aboutLabel.hidden = false
+//            aboutLabel.text = 
             
             UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.89, initialSpringVelocity: 15, options: .AllowUserInteraction, animations: { () -> Void in
                 

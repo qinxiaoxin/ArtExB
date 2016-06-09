@@ -1,0 +1,51 @@
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "1MU-6C-jzu"; */
+"1MU-6C-jzu.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "ARTEXB"; ObjectID = "BX4-dK-gqg"; */
+"BX4-dK-gqg.text" = "ARTEXB";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "DLe-17-6dU"; */
+"DLe-17-6dU.placeholder" = "Search";
+
+/* Class = "UINavigationItem"; title = "Web"; ObjectID = "Dau-Qq-h8b"; */
+"Dau-Qq-h8b.title" = "Web";
+
+/* Class = "UILabel"; text = "Tokyo"; ObjectID = "EBI-AV-Ba5"; */
+"EBI-AV-Ba5.text" = "Tokyo";
+
+/* Class = "UIButton"; normalTitle = "Curator"; ObjectID = "GEX-Pa-nyt"; */
+"GEX-Pa-nyt.normalTitle" = "Curator";
+
+/* Class = "UILabel"; text = "Flix"; ObjectID = "HTA-TR-04H"; */
+"HTA-TR-04H.text" = "Flix";
+
+/* Class = "UIButton"; normalTitle = "Venue"; ObjectID = "IrH-mV-c7w"; */
+"IrH-mV-c7w.normalTitle" = "Venue";
+
+/* Class = "UILabel"; text = "ARTEXB"; ObjectID = "JpI-xw-00L"; */
+"JpI-xw-00L.text" = "ARTEXB";
+
+/* Class = "UILabel"; text = "05-18-2016"; ObjectID = "VGD-v7-5WA"; */
+"VGD-v7-5WA.text" = "05-18-2016";
+
+/* Class = "UIButton"; normalTitle = "Artist"; ObjectID = "WFX-I0-utg"; */
+"WFX-I0-utg.normalTitle" = "Artist";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "XD4-kc-F3g"; */
+"XD4-kc-F3g.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Taking four years in between albums gave Fuentes the time to shape the record he really wanted to make, which the band will be playing in full on its upcoming tour."; ObjectID = "ZCe-cx-jyE"; */
+"ZCe-cx-jyE.text" = "Taking four years in between albums gave Fuentes the time to shape the record he really wanted to make, which the band will be playing in full on its upcoming tour.";
+
+/* Class = "UIButton"; normalTitle = "中文"; ObjectID = "ecI-Gd-cuz"; */
+"ecI-Gd-cuz.normalTitle" = "中文";
+
+/* Class = "UILabel"; text = "AiWeiwei"; ObjectID = "oCi-ZS-5Nj"; */
+"oCi-ZS-5Nj.text" = "AiWeiwei";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pjK-BS-WWV"; */
+"pjK-BS-WWV.text" = "Label";
+
+/* Class = "UILabel"; text = "Fuck Communist Party"; ObjectID = "s0Z-xT-pjF"; */
+"s0Z-xT-pjF.text" = "Fuck Communist Party";

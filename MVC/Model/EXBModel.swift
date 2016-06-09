@@ -9,8 +9,7 @@
 import Foundation
 
 struct EXBHomeModel {
-    let mainTitle: String
-    let secondTitle: String
+    let name: String
     let coverURL: String
     let webURL: String
     let artist: String

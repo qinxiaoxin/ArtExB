@@ -15,9 +15,7 @@ class EXBCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var coverImageView: OLImageView!
     
-    @IBOutlet weak var mainTitleLabel: UILabel!
-    
-    @IBOutlet weak var secondTitleLabel: UILabel!
+    @IBOutlet weak var name: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

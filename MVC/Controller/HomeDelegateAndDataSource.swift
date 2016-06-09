@@ -14,9 +14,9 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("EXBCell", forIndexPath: indexPath) as! EXBCollectionViewCell
-        cell.coverImageView.kf_setImageWithURL(NSURL(string: eXBArray[indexPath.row].coverURL)!)
-        cell.mainTitleLabel.text = eXBArray[indexPath.row].mainTitle
-        cell.secondTitleLabel.text = eXBArray[indexPath.row].secondTitle
+//        cell.coverImageView.kf_setImageWithURL(NSURL(string: eXBArray[indexPath.row].coverURL)!)
+        cell.coverImageView.image = UIImage(named: eXBArray[indexPath.row].coverURL)
+        cell.name.text = eXBArray[indexPath.row].name
         return cell
         
     }
