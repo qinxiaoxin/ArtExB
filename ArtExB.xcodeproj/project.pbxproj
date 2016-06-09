@@ -12,8 +12,8 @@
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
 		76516D6A1D084D48003CB40E /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516D691D084D48003CB40E /* ShareView.swift */; };
 		76516D7C1D091C8A003CB40E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76516D7E1D091C8A003CB40E /* Localizable.strings */; };
-		76516D8B1D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D811D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png */; };
-		76516D8C1D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D821D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png */; };
+		76516D8B1D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */; };
+		76516D8C1D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */; };
 		76516D8D1D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */; };
 		76516D8E1D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */; };
 		76516D8F1D0923BA003CB40E /* 徐冰台北回顾展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */; };
@@ -55,8 +55,8 @@
 		76516D7D1D091C8A003CB40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		76516D7F1D091C8C003CB40E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		76516D801D091EB1003CB40E /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
-		76516D811D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " 保利十年·艺术品秋季拍卖会.png"; sourceTree = "<group>"; };
-		76516D821D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " 瓯江草堂——海上画派精品展.png"; sourceTree = "<group>"; };
+		76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保利十年·现当代艺术秋季拍卖会.png"; sourceTree = "<group>"; };
+		76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瓯江草堂——海上画派精品展.png"; sourceTree = "<group>"; };
 		76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万物生——姥姥家与博斯的乐园.png"; sourceTree = "<group>"; };
 		76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻真的宇宙——2013威尼斯钟飙艺术现场.png"; sourceTree = "<group>"; };
 		76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "徐冰台北回顾展.png"; sourceTree = "<group>"; };
@@ -245,8 +245,8 @@
 		769EBA6B1CE71B53000A44EA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				76516D811D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png */,
-				76516D821D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png */,
+				76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */,
+				76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */,
 				76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */,
 				76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */,
 				76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */,
@@ -331,9 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76516D8C1D0923BA003CB40E /*  瓯江草堂——海上画派精品展.png in Resources */,
+				76516D8C1D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png in Resources */,
 				76516D911D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png in Resources */,
-				76516D8B1D0923BA003CB40E /*  保利十年·艺术品秋季拍卖会.png in Resources */,
+				76516D8B1D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png in Resources */,
 				76516D901D0923BA003CB40E /* 杉本博司.png in Resources */,
 				76516D8F1D0923BA003CB40E /* 徐冰台北回顾展.png in Resources */,
 				76516D7C1D091C8A003CB40E /* Localizable.strings in Resources */,

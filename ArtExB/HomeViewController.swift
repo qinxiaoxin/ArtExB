@@ -119,6 +119,7 @@ class HomeViewController: UIViewController {
             artistButton.hidden = true
             curatorButton.hidden = true
             venueButton.hidden = true
+            aboutLabel.hidden = true
             
             UIView.animateWithDuration(0.3, delay: 0.1, options: .AllowUserInteraction, animations: {
                     if let blurView = self.blurView {

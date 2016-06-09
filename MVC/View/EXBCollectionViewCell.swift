@@ -13,7 +13,7 @@ let NSBundleURL = NSURL(fileURLWithPath: NSBundle.mainBundle().bundlePath)
 
 class EXBCollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var coverImageView: OLImageView!
+    @IBOutlet weak var coverImageView: UIImageView!
     
     @IBOutlet weak var name: UILabel!
     
