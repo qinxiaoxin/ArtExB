@@ -84,14 +84,14 @@ class DetailViewController: UIViewController {
     func extendAction() {
         if !extend {
             UIView.animateWithDuration(0.3, animations: {
-                self.extendButton.setTitle("retract", forState: .Normal)
+                self.extendButton.setTitle(NSLocalizedString("RETRACT", comment: "retract"), forState: .Normal)
                 self.exbArticleHeight.constant = self.eXBArticle.intrinsicContentSize().height
                 self.scrollConstraintsHeight.constant += self.eXBArticle.intrinsicContentSize().height
                 self.extend = true
             })
         } else {
             UIView.animateWithDuration(0.3, animations: {
-                self.extendButton.setTitle("more", forState: .Normal)
+                self.extendButton.setTitle(NSLocalizedString("MORE", comment: "more"), forState: .Normal)
                 self.exbArticleHeight.constant = 50
                 self.scrollConstraintsHeight.constant = self.view.frame.height
                 self.extend = false

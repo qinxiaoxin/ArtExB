@@ -33,7 +33,7 @@ extension DetailViewController {
             
             //艺术家
             if model.artist != "" {
-                eXBArtist.text = NSLocalizedString("Artist:", comment: "Artist:") + NSLocalizedString(model.artist, comment: model.artist)
+                eXBArtist.text = NSLocalizedString("Artist: ", comment: "Artist: ") + NSLocalizedString(model.artist, comment: model.artist)
             } else {
                 eXBArtist.hidden = true
                 
@@ -41,7 +41,7 @@ extension DetailViewController {
             
             //策展人
             if model.curator != "" {
-                eXBCurator.text = NSLocalizedString("Curator:", comment: "Curator:") + NSLocalizedString(model.curator, comment: model.curator)
+                eXBCurator.text = NSLocalizedString("Curator: ", comment: "Curator: ") + NSLocalizedString(model.curator, comment: model.curator)
             } else if model.curator == "" && model.artist == ""{
                 eXBCurator.hidden = true
                 timeTopConstraint.constant -= 40
@@ -52,10 +52,10 @@ extension DetailViewController {
             
             
             //时间
-            eXBTime.text = NSLocalizedString("Time:", comment: "Time:") + NSLocalizedString(model.time, comment: model.time)
+            eXBTime.text = NSLocalizedString("Time: ", comment: "Time: ") + NSLocalizedString(model.time, comment: model.time)
             
             //场地
-            eXBVenue.text = NSLocalizedString("Venue:", comment: "Venue:") + NSLocalizedString(model.venue, comment: model.venue)
+            eXBVenue.text = NSLocalizedString("Venue: ", comment: "Venue: ") + NSLocalizedString(model.venue, comment: model.venue)
             
             //文章介绍
             eXBArticle.text = NSLocalizedString(model.artical, comment: model.artical)
@@ -76,7 +76,7 @@ extension DetailViewController {
             
             //新加展开按钮
             if eXBArticle.intrinsicContentSize().width > MagicLabelContentSize {
-                extendButton.setTitle("More", forState: .Normal)
+                extendButton.setTitle(NSLocalizedString("MORE", comment: "more"), forState: .Normal)
                 extendButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
                 extendButton.titleLabel?.font = UIFont.systemFontOfSize(15)
                 extendButton.addTarget(self, action: #selector(DetailViewController.extendAction), forControlEvents: .TouchUpInside)

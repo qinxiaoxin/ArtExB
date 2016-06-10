@@ -6,6 +6,9 @@
   Copyright © 2016 Xin Qin. All rights reserved.
 */
 
+MORE = "展开";
+RETRACT = "收起";
+
 ABOUT_EXB = "ARTEXB，是一个实验性的艺术舞台，我们吸纳最好的艺术家、建筑师、设计师、摄影家… 我们有优秀的制作人员为他们创建立体展示，我们渴望通过ARTEXB的全球分享平台，与用户共享出色的艺术展览、新奇的空间设计，以及各种各样美妙的创意构思。";
 
 "AI WEIWEI" = "艾未未";
@@ -19,7 +22,7 @@ ABOUT_EXB = "ARTEXB，是一个实验性的艺术舞台，我们吸纳最好的�
 "Poly Auction 10th Anniversary: Modern and Contemporary Art" = "保利十年·现当代艺术秋季拍卖会";
 "Oujiang Caotang" = "瓯江草堂——海上画派精品展";
 
-"Artist:" = "艺术家：";
+"Artist: " = "艺术家：";
 "Ai Weiwei" = "艾未未";
 "Xu Bing" = "徐冰";
 "Hiroshi Sugimoto" = "杉本博司";
@@ -29,7 +32,7 @@ ABOUT_EXB = "ARTEXB，是一个实验性的艺术舞台，我们吸纳最好的�
 "Jin Shangyi" = "靳尚谊";
 "Wu Yi" = "武艺";
 
-"Curator:" = "策展人：";
+"Curator: " = "策展人：";
 "Cui Cancan" = "崔灿灿";
 "Chia Chi Jason WANG" = "王嘉骥";
 "Gary Xu" = "徐钢";
@@ -38,7 +41,7 @@ ABOUT_EXB = "ARTEXB，是一个实验性的艺术舞台，我们吸纳最好的�
 
 
 
-"Time:" = "时间：";
+"Time: " = "时间：";
 "June 6 – September 6, 2015" = "2015年6月6日 - 9月6日";
 "January 5, 2014 – April 20, 2014" = "2014年1月25日 - 2014年4月20日";
 "May 5, 2012 – July 7, 2012" = "2012年5月12日 - 7月7日";
@@ -51,7 +54,7 @@ ABOUT_EXB = "ARTEXB，是一个实验性的艺术舞台，我们吸纳最好的�
 "September 2012" = "2012年9月";
 
 
-"Venue:" = "地点：";
+"Venue: " = "地点：";
 "Tang Contemporary Art, Galleria Continua" = "当代唐人艺术中心，常青画廊";
 "Taipei Fine Art Museum" = "台北市立美术馆";
 "Pace Beijing" = "佩斯北京";

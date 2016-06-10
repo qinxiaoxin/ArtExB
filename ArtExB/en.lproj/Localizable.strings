@@ -6,6 +6,9 @@
   Copyright © 2016 Xin Qin. All rights reserved.
 */
 
+MORE = "more";
+RETRACT = "retract";
+
 ABOUT_EXB = "ARTEXB is an experimental arena that we invite the excellent Artist, Architect, Designer, and Photographer to join. We will produce the various spheral displays in this global artistic terminal. And we desire to share the wonderful art exhibition, the innovative spatial design and millions of creative ideas with YOU.";
 
 "AI WEIWEI" = "AI WEIWEI";
@@ -20,7 +23,7 @@ ABOUT_EXB = "ARTEXB is an experimental arena that we invite the excellent Artist
 "Oujiang Caotang" = "Oujiang Caotang";
 
 
-"Artist:" = "Artist:";
+"Artist: " = "Artist: ";
 "Ai Weiwei" = "Ai Weiwei";
 "Xu Bing" = "Xu Bing";
 "Hiroshi Sugimoto" = "Hiroshi Sugimoto";
@@ -30,14 +33,14 @@ ABOUT_EXB = "ARTEXB is an experimental arena that we invite the excellent Artist
 "Jin Shangyi" = "Jin Shangyi";
 "Wu Yi" = "Wu Yi";
 
-"Curator:" = "Curator:";
+"Curator: " = "Curator: ";
 "Cui Cancan" = "Cui Cancan";
 "Chia Chi Jason WANG" = "Chia Chi Jason WANG";
 "Gary Xu" = "Gary Xu";
 "Wei Xing" = "Wei Xing";
 "Yu Ding" = "Yu Ding";
 
-"Time:" = "Time:";
+"Time: " = "Time: ";
 "June 6 – September 6, 2015" = "June 6 – September 6, 2015";
 "January 5, 2014 – April 20, 2014" = "January 5, 2014 – April 20, 2014";
 "May 5, 2012 – July 7, 2012" = "May 5, 2012 – July 7, 2012";
@@ -50,7 +53,7 @@ ABOUT_EXB = "ARTEXB is an experimental arena that we invite the excellent Artist
 "September 2012" = "September 2012";
 
 
-"Venue:" = "Venue:";
+"Venue: " = "Venue: ";
 "Tang Contemporary Art, Galleria Continua" = "Tang Contemporary Art, Galleria Continua";
 "Taipei Fine Art Museum" = "Taipei Fine Art Museum";
 "Pace Beijing" = "Pace Beijing";
