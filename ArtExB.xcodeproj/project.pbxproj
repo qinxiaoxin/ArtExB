@@ -339,6 +339,7 @@
 				TargetAttributes = {
 					769EBA431CE6E82D000A44EA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6T7YE3W6XN;
 					};
 				};
 			};
@@ -585,7 +586,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Longping Zhao (66M5TEGF3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
@@ -595,33 +596,15 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
-					"\"Alamofire\"",
-					"-framework",
 					"\"CoreData\"",
 					"-framework",
 					"\"CoreGraphics\"",
 					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"DateTools\"",
-					"-framework",
-					"\"ImageIO\"",
-					"-framework",
-					"\"Kingfisher\"",
-					"-framework",
 					"\"MobileCoreServices\"",
-					"-framework",
-					"\"OLImageView\"",
-					"-framework",
-					"\"SVProgressHUD\"",
 					"-framework",
 					"\"SnapKit\"",
 					"-framework",
 					"\"Social\"",
-					"-framework",
-					"\"SwiftyJSON\"",
-					"-framework",
-					"\"SwiftyUserDefaults\"",
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
@@ -639,7 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Longping Zhao (66M5TEGF3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
@@ -649,33 +632,15 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
-					"\"Alamofire\"",
-					"-framework",
 					"\"CoreData\"",
 					"-framework",
 					"\"CoreGraphics\"",
 					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"DateTools\"",
-					"-framework",
-					"\"ImageIO\"",
-					"-framework",
-					"\"Kingfisher\"",
-					"-framework",
 					"\"MobileCoreServices\"",
-					"-framework",
-					"\"OLImageView\"",
-					"-framework",
-					"\"SVProgressHUD\"",
 					"-framework",
 					"\"SnapKit\"",
 					"-framework",
 					"\"Social\"",
-					"-framework",
-					"\"SwiftyJSON\"",
-					"-framework",
-					"\"SwiftyUserDefaults\"",
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
