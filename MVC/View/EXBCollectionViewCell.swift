@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import OLImageView
 
 let NSBundleURL = NSURL(fileURLWithPath: NSBundle.mainBundle().bundlePath)  
 

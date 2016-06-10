@@ -586,7 +586,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Longping Zhao (6T7YE3W6XN)";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
@@ -610,7 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "91f7ab7f-18a1-4ba7-9047-78083bd60821";
+				PROVISIONING_PROFILE = "bc169b4f-2a62-420e-86e0-2c3942137101";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -622,7 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Longping Zhao (6T7YE3W6XN)";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
@@ -646,7 +646,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "91f7ab7f-18a1-4ba7-9047-78083bd60821";
+				PROVISIONING_PROFILE = "bc169b4f-2a62-420e-86e0-2c3942137101";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 			};
 			name = Release;

@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import SwiftyJSON
 
 let EXBCollectionViewTopInset: CGFloat = 50
 let EXBCollectionViewBottomInset: CGFloat = 30
