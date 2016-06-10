@@ -27,7 +27,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psx-CS-BSA">
-                        <rect key="frame" x="8" y="210" width="359" height="20"/>
+                        <rect key="frame" x="8" y="220" width="359" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="dnj-Cw-oSC"/>
                         </constraints>
@@ -45,7 +45,7 @@
                 <constraint firstItem="Psx-CS-BSA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="SZC-dp-bL9"/>
                 <constraint firstItem="m1D-be-pQG" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VDM-Rl-iXy"/>
                 <constraint firstAttribute="trailing" secondItem="rgE-dJ-k0b" secondAttribute="trailing" id="d8C-ee-91h"/>
-                <constraint firstItem="Psx-CS-BSA" firstAttribute="top" secondItem="m1D-be-pQG" secondAttribute="bottom" constant="10" id="gu1-mI-lJh"/>
+                <constraint firstItem="Psx-CS-BSA" firstAttribute="top" secondItem="m1D-be-pQG" secondAttribute="bottom" constant="20" id="gu1-mI-lJh"/>
                 <constraint firstItem="rgE-dJ-k0b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mKh-MD-g9p"/>
                 <constraint firstAttribute="trailing" secondItem="Psx-CS-BSA" secondAttribute="trailing" constant="8" id="tN6-Lh-pEQ"/>
             </constraints>

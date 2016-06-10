@@ -10,8 +10,16 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    var extend: Bool = false
+    
     var eXBHModel: EXBHomeModel?
+    
+    @IBOutlet weak var timeTopConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var exbArticleHeight: NSLayoutConstraint!
 
+    @IBOutlet weak var scrollConstraintsHeight: NSLayoutConstraint!
+    
     @IBOutlet weak var searchTextField: UITextField! {
         didSet {
             let leftView = UIView()
@@ -73,7 +81,15 @@ class DetailViewController: UIViewController {
     //MARK: - Action
     
     func extendAction() {
-        
+        if !extend {
+            exbArticleHeight.constant = eXBArticle.intrinsicContentSize().height
+            scrollConstraintsHeight.constant += eXBArticle.intrinsicContentSize().height
+            extend = true
+        } else {
+            exbArticleHeight.constant = 50
+            scrollConstraintsHeight.constant = view.frame.height
+            extend = false
+        }
     }
     
     func enterAction() {

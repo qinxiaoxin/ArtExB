@@ -151,7 +151,7 @@ class HomeViewController: UIViewController {
 //            curatorButton.hidden = false
 //            venueButton.hidden = false
             aboutLabel.hidden = false
-//            aboutLabel.text = 
+            aboutLabel.text = NSLocalizedString("ABOUT_EXB", comment: "ARTEXB is an experimental arena that we invite the excellent Artist, Architect, Designer, and Photographer to join. We will produce the various spheral displays in this global artistic terminal. And we desire to share the wonderful art exhibition, the innovative spatial design and millions of creative ideas with YOU.")
             
             UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.89, initialSpringVelocity: 15, options: .AllowUserInteraction, animations: { () -> Void in
                 

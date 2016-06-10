@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34FA843A1D0A831D006D92B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA84391D0A831D006D92B4 /* SystemConfiguration.framework */; };
+		34FA843C1D0A8365006D92B4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA843B1D0A8365006D92B4 /* ImageIO.framework */; };
+		34FA843E1D0A838D006D92B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA843D1D0A838D006D92B4 /* Security.framework */; };
+		34FA84401D0A83A2006D92B4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA843F1D0A83A2006D92B4 /* libiconv.tbd */; };
+		34FA84421D0A83AC006D92B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA84411D0A83AC006D92B4 /* CoreGraphics.framework */; };
+		34FA84441D0A83B4006D92B4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA84431D0A83B4006D92B4 /* libsqlite3.tbd */; };
+		34FA84461D0A83BD006D92B4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA84451D0A83BD006D92B4 /* CoreTelephony.framework */; };
+		34FA84481D0A83CB006D92B4 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA84471D0A83CB006D92B4 /* libstdc++.tbd */; };
+		34FA844A1D0A83DB006D92B4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FA84491D0A83DB006D92B4 /* libz.tbd */; };
 		764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681CE1CE7270600E66ED0 /* EXBModel.swift */; };
 		764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */; };
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
@@ -45,6 +54,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34FA84391D0A831D006D92B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		34FA843B1D0A8365006D92B4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		34FA843D1D0A838D006D92B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		34FA843F1D0A83A2006D92B4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		34FA84411D0A83AC006D92B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34FA84431D0A83B4006D92B4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		34FA84451D0A83BD006D92B4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		34FA84471D0A83CB006D92B4 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		34FA84491D0A83DB006D92B4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		51B54F3067D31D12983EF394 /* Pods-ArtExB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtExB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtExB/Pods-ArtExB.release.xcconfig"; sourceTree = "<group>"; };
 		764681CE1CE7270600E66ED0 /* EXBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBModel.swift; sourceTree = "<group>"; };
 		764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCellScrollDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +113,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FA844A1D0A83DB006D92B4 /* libz.tbd in Frameworks */,
+				34FA84481D0A83CB006D92B4 /* libstdc++.tbd in Frameworks */,
+				34FA84461D0A83BD006D92B4 /* CoreTelephony.framework in Frameworks */,
+				34FA84441D0A83B4006D92B4 /* libsqlite3.tbd in Frameworks */,
+				34FA84421D0A83AC006D92B4 /* CoreGraphics.framework in Frameworks */,
+				34FA84401D0A83A2006D92B4 /* libiconv.tbd in Frameworks */,
+				34FA843E1D0A838D006D92B4 /* Security.framework in Frameworks */,
+				34FA843C1D0A8365006D92B4 /* ImageIO.framework in Frameworks */,
+				34FA843A1D0A831D006D92B4 /* SystemConfiguration.framework in Frameworks */,
 				9C29CE29A81F34FA66F04F0C /* Pods_ArtExB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +132,15 @@
 		4742E23F0D155B30D5C06219 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34FA84491D0A83DB006D92B4 /* libz.tbd */,
+				34FA84471D0A83CB006D92B4 /* libstdc++.tbd */,
+				34FA84451D0A83BD006D92B4 /* CoreTelephony.framework */,
+				34FA84431D0A83B4006D92B4 /* libsqlite3.tbd */,
+				34FA84411D0A83AC006D92B4 /* CoreGraphics.framework */,
+				34FA843F1D0A83A2006D92B4 /* libiconv.tbd */,
+				34FA843D1D0A838D006D92B4 /* Security.framework */,
+				34FA843B1D0A8365006D92B4 /* ImageIO.framework */,
+				34FA84391D0A831D006D92B4 /* SystemConfiguration.framework */,
 				B614C72FC11C262D06EEF4CB /* Pods_ArtExB.framework */,
 			);
 			name = Frameworks;
@@ -303,7 +339,6 @@
 				TargetAttributes = {
 					769EBA431CE6E82D000A44EA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6T7YE3W6XN;
 					};
 				};
 			};
@@ -551,6 +586,77 @@
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"APOpenSdk\"",
+					"-l\"LWApiSDK\"",
+					"-l\"SocialAlipayShare\"",
+					"-l\"SocialFacebook\"",
+					"-l\"SocialInstagram\"",
+					"-l\"SocialLaiWang\"",
+					"-l\"SocialLine\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSinaSSO\"",
+					"-l\"SocialTumblr\"",
+					"-l\"SocialTwitter\"",
+					"-l\"SocialWechat\"",
+					"-l\"SocialWhatsapp\"",
+					"-l\"UMSocial_Sdk_5.2.1\"",
+					"-l\"UMSocial_Sdk_Comment_5.2.1\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OLImageView\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SwiftyUserDefaults\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4ddceae8-4e4b-4ae8-a21b-7247544d263f";
@@ -566,6 +672,77 @@
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"APOpenSdk\"",
+					"-l\"LWApiSDK\"",
+					"-l\"SocialAlipayShare\"",
+					"-l\"SocialFacebook\"",
+					"-l\"SocialInstagram\"",
+					"-l\"SocialLaiWang\"",
+					"-l\"SocialLine\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSinaSSO\"",
+					"-l\"SocialTumblr\"",
+					"-l\"SocialTwitter\"",
+					"-l\"SocialWechat\"",
+					"-l\"SocialWhatsapp\"",
+					"-l\"UMSocial_Sdk_5.2.1\"",
+					"-l\"UMSocial_Sdk_Comment_5.2.1\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OLImageView\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SwiftyUserDefaults\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4ddceae8-4e4b-4ae8-a21b-7247544d263f";

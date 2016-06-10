@@ -29,27 +29,40 @@ extension DetailViewController {
         if let model = eXBHModel {
             
             //名字
-            eXBName.text = model.name
+            eXBName.text = NSLocalizedString(model.name, comment: model.name)
             
             //艺术家
-            eXBArtist.text = model.artist
+            if model.artist != "" {
+                eXBArtist.text = NSLocalizedString("Artist:", comment: "Artist:") + NSLocalizedString(model.artist, comment: model.artist)
+            } else {
+                eXBArtist.hidden = true
+                
+            }
             
             //策展人
-            eXBCurator.text = model.curator
+            if model.curator != "" {
+                eXBCurator.text = NSLocalizedString("Curator:", comment: "Curator:") + NSLocalizedString(model.curator, comment: model.curator)
+            } else if model.curator == "" && model.artist == ""{
+                eXBCurator.hidden = true
+                timeTopConstraint.constant -= 40
+            } else {
+                eXBCurator.hidden = true
+                timeTopConstraint.constant -= 40 - 12
+            }
+            
             
             //时间
-            eXBTime.text = model.time
+            eXBTime.text = NSLocalizedString("Time:", comment: "Time:") + NSLocalizedString(model.time, comment: model.time)
             
             //场地
-            eXBVenue.text = model.venue
+            eXBVenue.text = NSLocalizedString("Venue:", comment: "Venue:") + NSLocalizedString(model.venue, comment: model.venue)
             
             //文章介绍
-            eXBArticle.text = model.artical
+            eXBArticle.text = NSLocalizedString(model.artical, comment: model.artical)
             
             //封面
 //            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
             coverImageView.image = UIImage(named: model.coverURL)
-            eXBName.text = model.name
             
             //Enter按钮
             enterButton = UIButton()
