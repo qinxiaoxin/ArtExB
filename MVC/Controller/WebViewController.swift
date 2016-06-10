@@ -8,7 +8,9 @@
 
 import UIKit
 
-class WebViewController: UIViewController {
+class WebViewController: UIViewController, UIWebViewDelegate {
+    
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
     
     @IBOutlet weak var webView: UIWebView!
     
@@ -75,6 +77,21 @@ class WebViewController: UIViewController {
         self.presentViewController(activityVC,
                                    animated: true,
                                    completion: nil)
+    }
+    
+    
+    //MARK: - webview delegate
+    
+    func webViewDidStartLoad(webView: UIWebView) {
+        indicator.startAnimating();
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        indicator.stopAnimating()
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        indicator.stopAnimating()
     }
 
 }

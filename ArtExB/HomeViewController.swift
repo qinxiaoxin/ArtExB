@@ -9,7 +9,7 @@
 import UIKit
 
 var MenuOpen = false
-let ArtMenuFullHeight: CGFloat = 320
+let ArtMenuFullHeight: CGFloat = 280
 let ArtExBColor = UIColor(red: 80.0/255.0, green: 227.0/255.0, blue: 194.0/255.0, alpha: 1.0)
 
 enum ArtExBSelectLanguage: Int {

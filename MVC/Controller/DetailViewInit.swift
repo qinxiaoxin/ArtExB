@@ -76,7 +76,6 @@ extension DetailViewController {
             
             //新加展开按钮
             if eXBArticle.intrinsicContentSize().width > MagicLabelContentSize {
-                let extendButton = UIButton()
                 extendButton.setTitle("More", forState: .Normal)
                 extendButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
                 extendButton.titleLabel?.font = UIFont.systemFontOfSize(15)

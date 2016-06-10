@@ -54,6 +54,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var eXBArticle: UILabel!
     
+    var extendButton = UIButton()
     var enterButton: UIButton!
     
     
@@ -82,13 +83,19 @@ class DetailViewController: UIViewController {
     
     func extendAction() {
         if !extend {
-            exbArticleHeight.constant = eXBArticle.intrinsicContentSize().height
-            scrollConstraintsHeight.constant += eXBArticle.intrinsicContentSize().height
-            extend = true
+            UIView.animateWithDuration(0.3, animations: {
+                self.extendButton.setTitle("retract", forState: .Normal)
+                self.exbArticleHeight.constant = self.eXBArticle.intrinsicContentSize().height
+                self.scrollConstraintsHeight.constant += self.eXBArticle.intrinsicContentSize().height
+                self.extend = true
+            })
         } else {
-            exbArticleHeight.constant = 50
-            scrollConstraintsHeight.constant = view.frame.height
-            extend = false
+            UIView.animateWithDuration(0.3, animations: {
+                self.extendButton.setTitle("more", forState: .Normal)
+                self.exbArticleHeight.constant = 50
+                self.scrollConstraintsHeight.constant = self.view.frame.height
+                self.extend = false
+            })
         }
     }
     

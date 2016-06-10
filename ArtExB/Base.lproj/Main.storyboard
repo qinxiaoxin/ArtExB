@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8D-1j-LXy" userLabel="Top Bar View">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S4C-VL-d8j" userLabel="Blur View Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_search_icon" translatesAutoresizingMaskIntoConstraints="NO" id="lPu-00-QdM">
@@ -105,7 +105,7 @@
                                             <constraint firstAttribute="height" constant="30.5" id="DKT-lE-o11"/>
                                             <constraint firstAttribute="width" constant="100" id="fAR-XS-0wP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -131,7 +131,7 @@
                                     <constraint firstAttribute="trailing" secondItem="lPu-00-QdM" secondAttribute="trailing" constant="8" id="k9z-SV-iyr"/>
                                     <constraint firstItem="DLe-17-6dU" firstAttribute="leading" secondItem="N8D-1j-LXy" secondAttribute="leading" constant="8" id="oOI-su-3X1"/>
                                     <constraint firstItem="lPu-00-QdM" firstAttribute="top" secondItem="N8D-1j-LXy" secondAttribute="top" constant="22" id="pV6-ui-W4i"/>
-                                    <constraint firstAttribute="height" constant="70" id="uWy-r3-kDh"/>
+                                    <constraint firstAttribute="height" constant="64" id="uWy-r3-kDh"/>
                                     <constraint firstAttribute="trailing" secondItem="S4C-VL-d8j" secondAttribute="trailing" id="xL7-4k-P6u"/>
                                     <constraint firstItem="WFX-I0-utg" firstAttribute="centerX" secondItem="N8D-1j-LXy" secondAttribute="centerX" id="yhE-ul-Kwv"/>
                                     <constraint firstAttribute="trailing" secondItem="pjK-BS-WWV" secondAttribute="trailing" constant="20" id="zCr-3s-bGS"/>
@@ -179,7 +179,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bbo-Il-ky7" userLabel="Top Bar View">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_search_icon" translatesAutoresizingMaskIntoConstraints="NO" id="nrF-7J-0hi">
                                         <rect key="frame" x="327" y="22" width="40" height="40"/>
@@ -230,7 +230,7 @@
                                             <constraint firstAttribute="width" constant="100" id="2jW-9a-ZfW"/>
                                             <constraint firstAttribute="height" constant="30.5" id="euu-Yj-hUJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -241,7 +241,7 @@
                                     <constraint firstItem="BX4-dK-gqg" firstAttribute="top" secondItem="1MU-6C-jzu" secondAttribute="top" id="2yO-sd-CZR"/>
                                     <constraint firstItem="Kfn-Jv-WZl" firstAttribute="top" secondItem="1MU-6C-jzu" secondAttribute="bottom" constant="-25" id="Dad-bk-Nfr"/>
                                     <constraint firstItem="BX4-dK-gqg" firstAttribute="centerX" secondItem="Bbo-Il-ky7" secondAttribute="centerX" id="c2e-T8-Bdx"/>
-                                    <constraint firstAttribute="height" constant="70" id="g8J-Tk-kqx"/>
+                                    <constraint firstAttribute="height" constant="64" id="g8J-Tk-kqx"/>
                                     <constraint firstItem="nrF-7J-0hi" firstAttribute="top" secondItem="Bbo-Il-ky7" secondAttribute="top" constant="22" id="m9e-0Z-BED"/>
                                     <constraint firstItem="1MU-6C-jzu" firstAttribute="top" secondItem="Bbo-Il-ky7" secondAttribute="top" constant="27" id="nGE-8S-1NC"/>
                                     <constraint firstItem="1MU-6C-jzu" firstAttribute="leading" secondItem="Bbo-Il-ky7" secondAttribute="leading" constant="8" id="qt4-Rp-6Jx"/>
@@ -250,14 +250,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9q7-A6-RRt" userLabel="scroll anchor view">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="597" id="YqD-73-PcA"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Thk-om-Ach">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K33-A9-E5c" userLabel="scroll content view">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
@@ -409,18 +409,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="UFV-HK-Vd5">
+                                <rect key="frame" x="177" y="324" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4xr-vg-hpo" firstAttribute="top" secondItem="z1R-Fb-6wL" secondAttribute="top" id="Cah-6n-1DN"/>
+                            <constraint firstItem="UFV-HK-Vd5" firstAttribute="centerY" secondItem="z1R-Fb-6wL" secondAttribute="centerY" id="Kzh-lA-NYX"/>
                             <constraint firstItem="SI6-Z4-ifh" firstAttribute="top" secondItem="4xr-vg-hpo" secondAttribute="bottom" id="SFw-rL-q9a"/>
                             <constraint firstAttribute="trailing" secondItem="4xr-vg-hpo" secondAttribute="trailing" id="TuH-XE-XR4"/>
+                            <constraint firstItem="UFV-HK-Vd5" firstAttribute="centerX" secondItem="z1R-Fb-6wL" secondAttribute="centerX" id="ZqH-kP-sJq"/>
                             <constraint firstItem="4xr-vg-hpo" firstAttribute="leading" secondItem="z1R-Fb-6wL" secondAttribute="leading" id="rfj-73-kkF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Web" id="Dau-Qq-h8b"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="indicator" destination="UFV-HK-Vd5" id="whq-5d-qbJ"/>
                         <outlet property="webView" destination="4xr-vg-hpo" id="mbn-q3-Mxw"/>
                     </connections>
                 </viewController>
