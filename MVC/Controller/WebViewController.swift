@@ -14,8 +14,6 @@ class WebViewController: UIViewController {
     
     let backGroundView = UIView()
     
-    let shareView = ShareView()
-    
     var url: String?
 
     override func viewDidLoad() {
@@ -49,17 +47,6 @@ class WebViewController: UIViewController {
         _ = NSDictionary(object: UIColor.whiteColor(),forKey: NSForegroundColorAttributeName)
         navigationController?.navigationBar.barStyle = UIBarStyle.Black
         
-        //share panel view
-        backGroundView.frame = CGRectMake(0, 0, view.frame.width, view.frame.height)
-        backGroundView.backgroundColor = UIColor.blackColor()
-        backGroundView.alpha = 0.8
-        backGroundView.hidden = true
-        backGroundView.userInteractionEnabled = true
-        backGroundView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WebViewController.scrollBack)))
-        navigationController?.view.addSubview(backGroundView)
-        
-        shareView.frame = CGRectMake(0, view.frame.height, view.frame.width, 280)
-        backGroundView.addSubview(shareView)
     }
     
     func backAction() {
@@ -67,18 +54,10 @@ class WebViewController: UIViewController {
     }
 
     func shareAction() {
-        UIView.animateWithDuration(0.3) {
-            self.shareView.frame = CGRectMake(0, (self.navigationController?.view.frame.height)! - 280, (self.navigationController?.view.frame.width)!, 280)
-            self.backGroundView.hidden = false
-        }
+        
+
     }
     
-    func scrollBack() {
-        UIView.animateWithDuration(0.3) {
-            self.shareView.frame = CGRectMake(0, (self.navigationController?.view.frame.height)!, (self.navigationController?.view.frame.width)!, 280)
-            self.backGroundView.hidden = true
-        }
-    }
     
 
     

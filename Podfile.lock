@@ -9,7 +9,6 @@ PODS:
   - SVProgressHUD (2.0.3)
   - SwiftyJSON (2.3.2)
   - SwiftyUserDefaults (2.2.0)
-  - UMengSocialCOM (5.2.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -20,7 +19,6 @@ DEPENDENCIES:
   - SVProgressHUD
   - SwiftyJSON
   - SwiftyUserDefaults
-  - UMengSocialCOM (~> 5.2.1)
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
@@ -31,6 +29,5 @@ SPEC CHECKSUMS:
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
-  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
 
 COCOAPODS: 0.39.0
