@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct EXBHomeModel {
+struct EXBModel {
     let name: String
     let coverURL: String
     let webURL: String

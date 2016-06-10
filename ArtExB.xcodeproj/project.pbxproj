@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343B2AF11D0AD2FF007C12ED /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 343B2AEB1D0AD2FF007C12ED /* libWeChatSDK.a */; };
+		343B2AF21D0AD2FF007C12ED /* WeChatActivityGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B2AEE1D0AD2FF007C12ED /* WeChatActivityGeneral.swift */; };
+		343B2AF31D0AD2FF007C12ED /* WeChatMomentsActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B2AEF1D0AD2FF007C12ED /* WeChatMomentsActivity.swift */; };
+		343B2AF41D0AD2FF007C12ED /* WeChatSessionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */; };
+		343B2AF61D0AD39C007C12ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343B2AF51D0AD39C007C12ED /* CoreGraphics.framework */; };
 		764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681CE1CE7270600E66ED0 /* EXBModel.swift */; };
 		764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */; };
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
@@ -44,6 +49,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		343B2AEB1D0AD2FF007C12ED /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		343B2AEC1D0AD2FF007C12ED /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		343B2AED1D0AD2FF007C12ED /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		343B2AEE1D0AD2FF007C12ED /* WeChatActivityGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatActivityGeneral.swift; sourceTree = "<group>"; };
+		343B2AEF1D0AD2FF007C12ED /* WeChatMomentsActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatMomentsActivity.swift; sourceTree = "<group>"; };
+		343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatSessionActivity.swift; sourceTree = "<group>"; };
+		343B2AF51D0AD39C007C12ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		343B2AF71D0AD3DC007C12ED /* ArtExB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtExB-Bridging-Header.h"; sourceTree = "<group>"; };
 		51B54F3067D31D12983EF394 /* Pods-ArtExB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtExB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtExB/Pods-ArtExB.release.xcconfig"; sourceTree = "<group>"; };
 		764681CE1CE7270600E66ED0 /* EXBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBModel.swift; sourceTree = "<group>"; };
 		764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCellScrollDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343B2AF61D0AD39C007C12ED /* CoreGraphics.framework in Frameworks */,
+				343B2AF11D0AD2FF007C12ED /* libWeChatSDK.a in Frameworks */,
 				9C29CE29A81F34FA66F04F0C /* Pods_ArtExB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,9 +115,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343B2AE91D0AD2FF007C12ED /* WeChatSharing */ = {
+			isa = PBXGroup;
+			children = (
+				343B2AEA1D0AD2FF007C12ED /* Resources */,
+				343B2AEE1D0AD2FF007C12ED /* WeChatActivityGeneral.swift */,
+				343B2AEF1D0AD2FF007C12ED /* WeChatMomentsActivity.swift */,
+				343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */,
+			);
+			path = WeChatSharing;
+			sourceTree = "<group>";
+		};
+		343B2AEA1D0AD2FF007C12ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				343B2AEB1D0AD2FF007C12ED /* libWeChatSDK.a */,
+				343B2AEC1D0AD2FF007C12ED /* WXApi.h */,
+				343B2AED1D0AD2FF007C12ED /* WXApiObject.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4742E23F0D155B30D5C06219 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				343B2AF51D0AD39C007C12ED /* CoreGraphics.framework */,
 				B614C72FC11C262D06EEF4CB /* Pods_ArtExB.framework */,
 			);
 			name = Frameworks;
@@ -160,6 +197,7 @@
 				769EBA501CE6E82D000A44EA /* LaunchScreen.storyboard */,
 				769EBA531CE6E82D000A44EA /* Info.plist */,
 				76516D7E1D091C8A003CB40E /* Localizable.strings */,
+				343B2AF71D0AD3DC007C12ED /* ArtExB-Bridging-Header.h */,
 			);
 			path = ArtExB;
 			sourceTree = "<group>";
@@ -242,6 +280,7 @@
 		769EBA6B1CE71B53000A44EA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				343B2AE91D0AD2FF007C12ED /* WeChatSharing */,
 				76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */,
 				76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */,
 				76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */,
@@ -403,8 +442,10 @@
 				76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */,
 				76B27A2D1CFC934600CC70E9 /* DetailTransitioningDelegate.swift in Sources */,
 				764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */,
+				343B2AF21D0AD2FF007C12ED /* WeChatActivityGeneral.swift in Sources */,
 				764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */,
 				76C69E831CFADBB6000E952E /* ArtExB-Define.swift in Sources */,
+				343B2AF31D0AD2FF007C12ED /* WeChatMomentsActivity.swift in Sources */,
 				769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */,
 				769EBA611CE708FC000A44EA /* HomeViewInit.swift in Sources */,
 				769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */,
@@ -418,6 +459,7 @@
 				76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */,
 				76C69E811CFACF28000E952E /* WebViewController.swift in Sources */,
 				76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */,
+				343B2AF41D0AD2FF007C12ED /* WeChatSessionActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,13 +585,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Longping Zhao (66M5TEGF3Z)";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Resource/WeChatSharing/Resources";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -585,8 +627,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				PROVISIONING_PROFILE = "91f7ab7f-18a1-4ba7-9047-78083bd60821";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -597,13 +639,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Longping Zhao (66M5TEGF3Z)";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Resource/WeChatSharing/Resources";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -639,8 +681,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				PROVISIONING_PROFILE = "91f7ab7f-18a1-4ba7-9047-78083bd60821";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -31,7 +31,7 @@ enum ArtExBSelectLanguage: Int {
 
 class HomeViewController: UIViewController {
     
-    var eXBArray = [EXBHomeModel]()
+    var eXBArray = [EXBModel]()
     
     var blurView : UIVisualEffectView?
     let darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)

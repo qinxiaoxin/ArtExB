@@ -12,7 +12,7 @@ class DetailViewController: UIViewController {
     
     var extend: Bool = false
     
-    var eXBHModel: EXBHomeModel?
+    var eXBHModel: EXBModel?
     
     @IBOutlet weak var timeTopConstraint: NSLayoutConstraint!
     
@@ -94,7 +94,7 @@ class DetailViewController: UIViewController {
     
     func enterAction() {
         let vc: WebViewController = storyboard?.instantiateViewControllerWithIdentifier("WebVC") as! WebViewController
-        vc.url = eXBHModel?.webURL
+        vc.model = eXBHModel!
         let nav = UINavigationController(rootViewController: vc)
         nav.transitioningDelegate = self
         presentViewController(nav, animated: true, completion: nil)

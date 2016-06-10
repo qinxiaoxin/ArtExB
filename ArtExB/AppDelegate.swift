@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         application.statusBarStyle = .LightContent
         
+        WXApi.registerApp("wx2676b18106e451d0") 
+        
         return true
     }
 

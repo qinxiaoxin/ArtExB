@@ -12,6 +12,8 @@ class WebViewController: UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
     
+    var model: EXBModel?
+    
     let backGroundView = UIView()
     
     var url: String?
@@ -21,7 +23,7 @@ class WebViewController: UIViewController {
         
         initView()
         
-        webView.loadRequest(NSURLRequest(URL: NSURL(string: url!)!))
+        webView.loadRequest(NSURLRequest(URL: NSURL(string: model!.webURL)!))
         
     }
     
@@ -55,6 +57,25 @@ class WebViewController: UIViewController {
 
     func shareAction() {
         
+        let text = model!.artist
+        let image = UIImage(named: model!.coverURL)
+        let url = NSURL(string: model!.webURL)
+        let items: [AnyObject] = [text, image!, url!] ?? []
+        let activityVC = UIActivityViewController(activityItems: items, applicationActivities: [WeChatSessionActivity(), WeChatMomentsActivity()])
+        activityVC.excludedActivityTypes = [
+        UIActivityTypeMail,
+        UIActivityTypeMessage,
+        UIActivityTypeAddToReadingList,
+        UIActivityTypePrint,
+        UIActivityTypeAssignToContact,
+        UIActivityTypeSaveToCameraRoll,
+        UIActivityTypeAirDrop,
+        UIActivityTypePostToFlickr,
+        UIActivityTypePostToVimeo
+        ]
+        self.presentViewController(activityVC,
+                                   animated: true,
+                                   completion: nil)
 
     }
     
