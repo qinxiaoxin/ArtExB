@@ -56,7 +56,6 @@ class WebViewController: UIViewController {
     }
 
     func shareAction() {
-        
         let text = model!.artist
         let image = UIImage(named: model!.coverURL)
         let url = NSURL(string: model!.webURL)
@@ -76,11 +75,6 @@ class WebViewController: UIViewController {
         self.presentViewController(activityVC,
                                    animated: true,
                                    completion: nil)
-
     }
-    
-    
-
-    
 
 }

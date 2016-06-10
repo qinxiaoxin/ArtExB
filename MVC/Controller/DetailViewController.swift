@@ -99,5 +99,15 @@ class DetailViewController: UIViewController {
         nav.transitioningDelegate = self
         presentViewController(nav, animated: true, completion: nil)
     }
+    
+    
+    //禁止横屏
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return .Portrait
+    }
 
 }
