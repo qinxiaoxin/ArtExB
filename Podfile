@@ -5,4 +5,5 @@ use_frameworks!
 target 'ArtExB' do
  pod 'SnapKit'
  pod 'Alamofire'
+ pod 'Kingfisher'
 end

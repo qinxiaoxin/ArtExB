@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ArtExB/Alamofire.framework"
+  install_framework "Pods-ArtExB/Kingfisher.framework"
   install_framework "Pods-ArtExB/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ArtExB/Alamofire.framework"
+  install_framework "Pods-ArtExB/Kingfisher.framework"
   install_framework "Pods-ArtExB/SnapKit.framework"
 fi
