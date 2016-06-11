@@ -614,7 +614,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4ddceae8-4e4b-4ae8-a21b-7247544d263f";
+				PROVISIONING_PROFILE = "2798fedd-d367-4f78-95fd-69c75a4e1ff8";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -650,7 +650,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4ddceae8-4e4b-4ae8-a21b-7247544d263f";
+				PROVISIONING_PROFILE = "2798fedd-d367-4f78-95fd-69c75a4e1ff8";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 			};
 			name = Release;
