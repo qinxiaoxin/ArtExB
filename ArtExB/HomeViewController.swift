@@ -9,7 +9,7 @@
 import UIKit
 
 var MenuOpen = false
-let ArtMenuFullHeight: CGFloat = 280
+let ArtMenuFullHeight: CGFloat = 300
 let ArtExBColor = UIColor(red: 80.0/255.0, green: 227.0/255.0, blue: 194.0/255.0, alpha: 1.0)
 
 enum ArtExBSelectLanguage: Int {
@@ -37,7 +37,6 @@ class HomeViewController: UIViewController {
     let darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)
     
     var menuLastHeight: CGFloat?
-    
     
     @IBOutlet weak var topBarView: UIView!
     

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class WebViewController: UIViewController, UIWebViewDelegate {
     
@@ -59,9 +60,10 @@ class WebViewController: UIViewController, UIWebViewDelegate {
 
     func shareAction() {
         let text = model!.artist
-        let image = UIImage(named: model!.coverURL)
+        let imgV = UIImageView()
+        imgV.kf_setImageWithURL(NSURL(string: model!.coverURL)!)
         let url = NSURL(string: model!.webURL)
-        let items: [AnyObject] = [text, image!, url!] ?? []
+        let items: [AnyObject] = [text, imgV.image!, url!] ?? []
         let activityVC = UIActivityViewController(activityItems: items, applicationActivities: [WeChatSessionActivity(), WeChatMomentsActivity()])
         activityVC.excludedActivityTypes = [
         UIActivityTypeMail,
