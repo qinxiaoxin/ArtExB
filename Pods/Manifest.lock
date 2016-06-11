@@ -1,15 +1,22 @@
 PODS:
   - Alamofire (3.4.0)
+  - Ji (1.2.0):
+    - Ji/Ji (= 1.2.0)
+  - Ji/Ji (1.2.0):
+    - Ji/Ji-libxml
+  - Ji/Ji-libxml (1.2.0)
   - Kingfisher (2.4.1)
   - SnapKit (0.21.0)
 
 DEPENDENCIES:
   - Alamofire
+  - Ji
   - Kingfisher
   - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Ji: ddebb22f9ac445db6e884b66f78ea74fb135fdb7
   Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
   SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
 

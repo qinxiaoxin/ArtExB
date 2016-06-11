@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2AF660F7234D46BABDBD9F2C'
-               BlueprintName = 'DateTools'
+               BlueprintIdentifier = '9A4ED95052EF750DA444781A'
+               BlueprintName = 'Ji'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'DateTools.framework'>
+               BuildableName = 'Ji.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

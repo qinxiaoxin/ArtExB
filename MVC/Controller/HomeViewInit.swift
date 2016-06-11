@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import Alamofire
+import Ji
 
 let EXBCollectionViewTopInset: CGFloat = 50
 let EXBCollectionViewBottomInset: CGFloat = 30
@@ -16,11 +18,40 @@ extension HomeViewController {
     
     func fetchModel() {
         
+//        Alamofire.request(.GET, "http://www.artistpano.com/app/data.json", parameters:nil)
+//            .validate()
+//            .responseJSON { (response: Response) in
+//                print("response = \(response)")
+//        }
         
-        
-        if eXBArray.count > 0 {
-            eXBCollectionView?.reloadData()
+        Alamofire.request(.GET, "http://www.artistpano.com/app").responseJiHtml { (response) -> Void in
+            if  let jiHtml = response.result.value {
+                if let aRootNode = jiHtml.xPath("//body/div[@class='cell item']"){
+                    for aNode in aRootNode {
+                        let imageurl = aNode.xPath("./img").first?["src"]
+                        let name = aNode.xPath("./span[@class='name']").first?.content
+                        let artist = aNode.xPath("./span[@class='artist']").first?.content
+                        let curator = aNode.xPath("./span[@class='curator']").first?.content
+                        let time = aNode.xPath("./span[@class='time']").first?.content
+                        let venue = aNode.xPath("./span[@class='venue']").first?.content
+                        let weburl = aNode.xPath("./span[@class='weburl']").first?.content
+                        let artical = aNode.xPath("./span[@class='artical']").first?.content
+                        
+                        let model = EXBModel(name: name! ?? "", coverURL: imageurl! ?? "", webURL: weburl! ?? "", artist: artist! ?? "", curator: curator! ?? "", time: time! ?? "", venue: venue! ?? "", artical: artical! ?? "")
+                        
+                        self.eXBArray.append(model)
+                        
+                    }
+                    
+                }
+                
+                if self.eXBArray.count > 0 {
+                    self.eXBCollectionView?.reloadData()
+                }
+                
+            }
         }
+        
     }
     
     func fetchTimeLine() {

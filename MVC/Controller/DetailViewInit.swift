@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SnapKit
+import Kingfisher
 
 let MagicLabelContentSize: CGFloat = 558
 
@@ -61,8 +62,7 @@ extension DetailViewController {
             eXBArticle.text = NSLocalizedString(model.artical, comment: model.artical)
             
             //封面
-//            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
-            coverImageView.image = UIImage(named: model.coverURL)
+            coverImageView.kf_setImageWithURL(NSURL(string: model.coverURL)!)
             
             //Enter按钮
             enterButton = UIButton()
