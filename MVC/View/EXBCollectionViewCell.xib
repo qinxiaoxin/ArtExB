@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -14,20 +15,26 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rgE-dJ-k0b">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="187.5"/>
                         <constraints>
+                            <constraint firstAttribute="width" secondItem="rgE-dJ-k0b" secondAttribute="height" multiplier="2:1" id="Uzc-2N-Wtf"/>
                             <constraint firstAttribute="height" constant="200" id="sZ4-Kp-u5L"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="sZ4-Kp-u5L"/>
+                            </mask>
+                        </variation>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="triangle" translatesAutoresizingMaskIntoConstraints="NO" id="m1D-be-pQG">
-                        <rect key="frame" x="174.5" y="185" width="25" height="15"/>
+                        <rect key="frame" x="174.5" y="172.5" width="25" height="15"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="25" id="Gl9-Lb-Uj9"/>
                             <constraint firstAttribute="height" constant="15" id="aW8-S7-qV3"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psx-CS-BSA">
-                        <rect key="frame" x="8" y="220" width="359" height="20"/>
+                        <rect key="frame" x="8" y="207.5" width="359" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="dnj-Cw-oSC"/>
                         </constraints>
