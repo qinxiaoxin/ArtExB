@@ -57,6 +57,7 @@
 		343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatSessionActivity.swift; sourceTree = "<group>"; };
 		343B2AF51D0AD39C007C12ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		343B2AF71D0AD3DC007C12ED /* ArtExB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtExB-Bridging-Header.h"; sourceTree = "<group>"; };
+		343B305B1D0B28C9007251F8 /* data.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.geojson; sourceTree = "<group>"; };
 		51B54F3067D31D12983EF394 /* Pods-ArtExB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtExB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtExB/Pods-ArtExB.release.xcconfig"; sourceTree = "<group>"; };
 		764681CE1CE7270600E66ED0 /* EXBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBModel.swift; sourceTree = "<group>"; };
 		764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCellScrollDelegate.swift; sourceTree = "<group>"; };
@@ -292,6 +293,7 @@
 				76516D891D0923BA003CB40E /* 艾未未.png */,
 				76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */,
 				76516D801D091EB1003CB40E /* Directions.geojson */,
+				343B305B1D0B28C9007251F8 /* data.geojson */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
