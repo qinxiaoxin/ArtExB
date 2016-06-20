@@ -102,6 +102,7 @@ class DetailViewController: UIViewController {
     func enterAction() {
         let vc: WebViewController = storyboard?.instantiateViewControllerWithIdentifier("WebVC") as! WebViewController
         vc.model = eXBHModel!
+        vc.image = coverImageView.image!
         let nav = UINavigationController(rootViewController: vc)
         nav.transitioningDelegate = self
         presentViewController(nav, animated: true, completion: nil)

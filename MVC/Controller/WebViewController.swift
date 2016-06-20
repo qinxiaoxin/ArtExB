@@ -20,6 +20,8 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     let backGroundView = UIView()
     
     var url: String?
+    
+    var image = UIImage()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,22 +61,24 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     }
 
     func shareAction() {
-        let text = model!.artist
-        let imgV = UIImageView()
-        imgV.kf_setImageWithURL(NSURL(string: model!.coverURL)!)
+        let text = NSLocalizedString(model!.name, comment: model!.name)
         let url = NSURL(string: model!.webURL)
-        let items: [AnyObject] = [text, imgV.image!, url!] ?? []
-        let activityVC = UIActivityViewController(activityItems: items, applicationActivities: [WeChatSessionActivity(), WeChatMomentsActivity()])
+//        let data = UIImageJPEGRepresentation(image, 0.5);
+//        let img = UIImage(data: data!);
+        let img = UIImage(named: "ArtExB_400")
+        
+        let items: [AnyObject] = [text, img!, url!] ?? []
+        let activityVC = UIActivityViewController(activityItems: items, applicationActivities: [])
         activityVC.excludedActivityTypes = [
-        UIActivityTypeMail,
-        UIActivityTypeMessage,
-        UIActivityTypeAddToReadingList,
-        UIActivityTypePrint,
-        UIActivityTypeAssignToContact,
-        UIActivityTypeSaveToCameraRoll,
-        UIActivityTypeAirDrop,
-        UIActivityTypePostToFlickr,
-        UIActivityTypePostToVimeo
+            UIActivityTypeMail,
+            UIActivityTypeMessage,
+            UIActivityTypeAddToReadingList,
+            UIActivityTypePrint,
+            UIActivityTypeAssignToContact,
+            UIActivityTypeSaveToCameraRoll,
+            UIActivityTypeAirDrop,
+            UIActivityTypePostToFlickr,
+            UIActivityTypePostToVimeo
         ]
         self.presentViewController(activityVC,
                                    animated: true,

@@ -7,25 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		343B2AF11D0AD2FF007C12ED /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 343B2AEB1D0AD2FF007C12ED /* libWeChatSDK.a */; };
-		343B2AF21D0AD2FF007C12ED /* WeChatActivityGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B2AEE1D0AD2FF007C12ED /* WeChatActivityGeneral.swift */; };
-		343B2AF31D0AD2FF007C12ED /* WeChatMomentsActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B2AEF1D0AD2FF007C12ED /* WeChatMomentsActivity.swift */; };
-		343B2AF41D0AD2FF007C12ED /* WeChatSessionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */; };
 		343B2AF61D0AD39C007C12ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343B2AF51D0AD39C007C12ED /* CoreGraphics.framework */; };
 		764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681CE1CE7270600E66ED0 /* EXBModel.swift */; };
 		764681D11CE7636100E66ED0 /* EXBCellScrollDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */; };
 		764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764681D31CE7800B00E66ED0 /* DetailViewController.swift */; };
 		76516D7C1D091C8A003CB40E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76516D7E1D091C8A003CB40E /* Localizable.strings */; };
-		76516D8B1D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */; };
-		76516D8C1D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */; };
-		76516D8D1D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */; };
-		76516D8E1D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */; };
-		76516D8F1D0923BA003CB40E /* 徐冰台北回顾展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */; };
-		76516D901D0923BA003CB40E /* 杉本博司.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D861D0923BA003CB40E /* 杉本博司.png */; };
-		76516D911D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D871D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png */; };
-		76516D921D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D881D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png */; };
-		76516D931D0923BA003CB40E /* 艾未未.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D891D0923BA003CB40E /* 艾未未.png */; };
-		76516D941D0923BA003CB40E /* 道行之而成·潘公凯作品展.png in Resources */ = {isa = PBXBuildFile; fileRef = 76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */; };
 		76516D9E1D0C3939003CB40E /* Request+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516D9D1D0C3939003CB40E /* Request+Extension.swift */; };
 		769EBA481CE6E82D000A44EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA471CE6E82D000A44EA /* AppDelegate.swift */; };
 		769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA491CE6E82D000A44EA /* HomeViewController.swift */; };
@@ -37,6 +23,7 @@
 		769EBA661CE70DED000A44EA /* EXBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */; };
 		769EBA671CE70DED000A44EA /* EXBCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */; };
 		769EBA6A1CE7187A000A44EA /* HomeDelegateAndDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */; };
+		76AD3D201D182A2E00A34850 /* ArtExB_400.png in Resources */ = {isa = PBXBuildFile; fileRef = 76AD3D1F1D182A2E00A34850 /* ArtExB_400.png */; };
 		76B27A251CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */; };
 		76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */; };
 		76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */; };
@@ -50,15 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		343B2AEB1D0AD2FF007C12ED /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		343B2AEC1D0AD2FF007C12ED /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		343B2AED1D0AD2FF007C12ED /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		343B2AEE1D0AD2FF007C12ED /* WeChatActivityGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatActivityGeneral.swift; sourceTree = "<group>"; };
-		343B2AEF1D0AD2FF007C12ED /* WeChatMomentsActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatMomentsActivity.swift; sourceTree = "<group>"; };
-		343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeChatSessionActivity.swift; sourceTree = "<group>"; };
 		343B2AF51D0AD39C007C12ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		343B2AF71D0AD3DC007C12ED /* ArtExB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtExB-Bridging-Header.h"; sourceTree = "<group>"; };
-		343B305B1D0B28C9007251F8 /* data.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.geojson; sourceTree = "<group>"; };
 		51B54F3067D31D12983EF394 /* Pods-ArtExB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtExB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtExB/Pods-ArtExB.release.xcconfig"; sourceTree = "<group>"; };
 		764681CE1CE7270600E66ED0 /* EXBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBModel.swift; sourceTree = "<group>"; };
 		764681D01CE7636100E66ED0 /* EXBCellScrollDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCellScrollDelegate.swift; sourceTree = "<group>"; };
@@ -67,16 +47,6 @@
 		76516D791D091C6E003CB40E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		76516D7D1D091C8A003CB40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		76516D7F1D091C8C003CB40E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保利十年·现当代艺术秋季拍卖会.png"; sourceTree = "<group>"; };
-		76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瓯江草堂——海上画派精品展.png"; sourceTree = "<group>"; };
-		76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万物生——姥姥家与博斯的乐园.png"; sourceTree = "<group>"; };
-		76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻真的宇宙——2013威尼斯钟飙艺术现场.png"; sourceTree = "<group>"; };
-		76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "徐冰台北回顾展.png"; sourceTree = "<group>"; };
-		76516D861D0923BA003CB40E /* 杉本博司.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杉本博司.png"; sourceTree = "<group>"; };
-		76516D871D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第二届《诗书画》年度展——西湖.png"; sourceTree = "<group>"; };
-		76516D881D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自在途程——靳尚谊油画语言研究展.png"; sourceTree = "<group>"; };
-		76516D891D0923BA003CB40E /* 艾未未.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾未未.png"; sourceTree = "<group>"; };
-		76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "道行之而成·潘公凯作品展.png"; sourceTree = "<group>"; };
 		76516D9D1D0C3939003CB40E /* Request+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+Extension.swift"; sourceTree = "<group>"; };
 		769EBA441CE6E82D000A44EA /* ArtExB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtExB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EBA471CE6E82D000A44EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +60,7 @@
 		769EBA641CE70DED000A44EA /* EXBCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBCollectionViewCell.swift; sourceTree = "<group>"; };
 		769EBA651CE70DED000A44EA /* EXBCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EXBCollectionViewCell.xib; sourceTree = "<group>"; };
 		769EBA691CE7187A000A44EA /* HomeDelegateAndDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDelegateAndDataSource.swift; sourceTree = "<group>"; };
+		76AD3D1F1D182A2E00A34850 /* ArtExB_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArtExB_400.png; sourceTree = "<group>"; };
 		76B27A241CFC7D2D00CC70E9 /* HomeTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTransitioningDelegate.swift; sourceTree = "<group>"; };
 		76B27A261CFC80A500CC70E9 /* ExBTransitionPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBTransitionPop.swift; sourceTree = "<group>"; };
 		76B27A281CFC80D100CC70E9 /* ExBTransitionPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBTransitionPush.swift; sourceTree = "<group>"; };
@@ -109,7 +80,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				343B2AF61D0AD39C007C12ED /* CoreGraphics.framework in Frameworks */,
-				343B2AF11D0AD2FF007C12ED /* libWeChatSDK.a in Frameworks */,
 				9C29CE29A81F34FA66F04F0C /* Pods_ArtExB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,27 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		343B2AE91D0AD2FF007C12ED /* WeChatSharing */ = {
-			isa = PBXGroup;
-			children = (
-				343B2AEA1D0AD2FF007C12ED /* Resources */,
-				343B2AEE1D0AD2FF007C12ED /* WeChatActivityGeneral.swift */,
-				343B2AEF1D0AD2FF007C12ED /* WeChatMomentsActivity.swift */,
-				343B2AF01D0AD2FF007C12ED /* WeChatSessionActivity.swift */,
-			);
-			path = WeChatSharing;
-			sourceTree = "<group>";
-		};
-		343B2AEA1D0AD2FF007C12ED /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				343B2AEB1D0AD2FF007C12ED /* libWeChatSDK.a */,
-				343B2AEC1D0AD2FF007C12ED /* WXApi.h */,
-				343B2AED1D0AD2FF007C12ED /* WXApiObject.h */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		4742E23F0D155B30D5C06219 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,18 +232,7 @@
 		769EBA6B1CE71B53000A44EA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				343B2AE91D0AD2FF007C12ED /* WeChatSharing */,
-				76516D811D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png */,
-				76516D821D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png */,
-				76516D831D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png */,
-				76516D841D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png */,
-				76516D851D0923BA003CB40E /* 徐冰台北回顾展.png */,
-				76516D861D0923BA003CB40E /* 杉本博司.png */,
-				76516D871D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png */,
-				76516D881D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png */,
-				76516D891D0923BA003CB40E /* 艾未未.png */,
-				76516D8A1D0923BA003CB40E /* 道行之而成·潘公凯作品展.png */,
-				343B305B1D0B28C9007251F8 /* data.geojson */,
+				76AD3D1F1D182A2E00A34850 /* ArtExB_400.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -370,20 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76516D8C1D0923BA003CB40E /* 瓯江草堂——海上画派精品展.png in Resources */,
-				76516D911D0923BA003CB40E /* 第二届《诗书画》年度展——西湖.png in Resources */,
-				76516D8B1D0923BA003CB40E /* 保利十年·现当代艺术秋季拍卖会.png in Resources */,
-				76516D901D0923BA003CB40E /* 杉本博司.png in Resources */,
-				76516D8F1D0923BA003CB40E /* 徐冰台北回顾展.png in Resources */,
 				76516D7C1D091C8A003CB40E /* Localizable.strings in Resources */,
 				769EBA671CE70DED000A44EA /* EXBCollectionViewCell.xib in Resources */,
-				76516D8D1D0923BA003CB40E /* 万物生——姥姥家与博斯的乐园.png in Resources */,
-				76516D931D0923BA003CB40E /* 艾未未.png in Resources */,
-				76516D941D0923BA003CB40E /* 道行之而成·潘公凯作品展.png in Resources */,
 				769EBA521CE6E82D000A44EA /* LaunchScreen.storyboard in Resources */,
-				76516D8E1D0923BA003CB40E /* 幻真的宇宙——2013威尼斯钟飙艺术现场.png in Resources */,
 				769EBA4F1CE6E82D000A44EA /* Assets.xcassets in Resources */,
-				76516D921D0923BA003CB40E /* 自在途程——靳尚谊油画语言研究展.png in Resources */,
+				76AD3D201D182A2E00A34850 /* ArtExB_400.png in Resources */,
 				769EBA4D1CE6E82D000A44EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,10 +375,8 @@
 				76B27A271CFC80A500CC70E9 /* ExBTransitionPop.swift in Sources */,
 				76B27A2D1CFC934600CC70E9 /* DetailTransitioningDelegate.swift in Sources */,
 				764681D41CE7800B00E66ED0 /* DetailViewController.swift in Sources */,
-				343B2AF21D0AD2FF007C12ED /* WeChatActivityGeneral.swift in Sources */,
 				764681CF1CE7270600E66ED0 /* EXBModel.swift in Sources */,
 				76C69E831CFADBB6000E952E /* ArtExB-Define.swift in Sources */,
-				343B2AF31D0AD2FF007C12ED /* WeChatMomentsActivity.swift in Sources */,
 				769EBA4A1CE6E82D000A44EA /* HomeViewController.swift in Sources */,
 				769EBA611CE708FC000A44EA /* HomeViewInit.swift in Sources */,
 				76516D9E1D0C3939003CB40E /* Request+Extension.swift in Sources */,
@@ -464,7 +391,6 @@
 				76B27A291CFC80D100CC70E9 /* ExBTransitionPush.swift in Sources */,
 				76C69E811CFACF28000E952E /* WebViewController.swift in Sources */,
 				76F1B2331CEA108E0018D408 /* HomeTextFieldDelegate.swift in Sources */,
-				343B2AF41D0AD2FF007C12ED /* WeChatSessionActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,13 +516,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Longping Zhao (6T7YE3W6XN)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Longping Zhao (66M5TEGF3Z)";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Resource/WeChatSharing/Resources";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -614,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2798fedd-d367-4f78-95fd-69c75a4e1ff8";
+				PROVISIONING_PROFILE = "f484458b-97e0-411f-a239-0768463fff68";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -626,13 +552,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Longping Zhao (6T7YE3W6XN)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Longping Zhao (66M5TEGF3Z)";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ArtExB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Resource/WeChatSharing/Resources";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -650,7 +576,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.qinxin.ArtExB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2798fedd-d367-4f78-95fd-69c75a4e1ff8";
+				PROVISIONING_PROFILE = "f484458b-97e0-411f-a239-0768463fff68";
 				SWIFT_OBJC_BRIDGING_HEADER = "ArtExB/ArtExB-Bridging-Header.h";
 			};
 			name = Release;
