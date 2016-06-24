@@ -14,6 +14,8 @@ class DetailViewController: UIViewController {
     
     var eXBHModel: EXBModel?
     
+    @IBOutlet weak var topBarView: UIView!
+    
     @IBOutlet weak var timeTopConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var exbArticleHeight: NSLayoutConstraint!

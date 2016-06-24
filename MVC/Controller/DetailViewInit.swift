@@ -27,6 +27,16 @@ extension DetailViewController {
 //            }
 //        }
         
+        let backBtn = UIButton()
+        backBtn.frame = CGRectMake(16, 30, 24, 24)
+        backBtn.setImage(UIImage(named: "back"), forState: .Normal)
+        backBtn.addTarget(self, action: #selector(DetailViewController.backHomepage), forControlEvents: .TouchUpInside)
+        let backAreaButton = UIButton()
+        backAreaButton.frame = CGRectMake(0, 20, 80, 44);
+        backAreaButton.addTarget(self, action: #selector(DetailViewController.backHomepage), forControlEvents: .TouchUpInside)
+        topBarView.addSubview(backAreaButton)
+        topBarView.addSubview(backBtn)
+        
         if let model = eXBHModel {
             
             //名字

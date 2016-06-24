@@ -153,7 +153,7 @@
                     <connections>
                         <outlet property="aboutLabel" destination="pjK-BS-WWV" id="T2Z-UO-cgp"/>
                         <outlet property="artistButton" destination="WFX-I0-utg" id="fkt-da-9b0"/>
-                        <outlet property="blurViewContainer" destination="S4C-VL-d8j" id="Ryu-o0-74V"/>
+                        <outlet property="blurViewContainer" destination="S4C-VL-d8j" id="6ak-8h-WOB"/>
                         <outlet property="curatorButton" destination="GEX-Pa-nyt" id="3da-Ga-dz9"/>
                         <outlet property="logoImageView" destination="lPu-00-QdM" id="8rq-2C-pp0"/>
                         <outlet property="searchTextField" destination="DLe-17-6dU" id="iMA-mb-hg4"/>
@@ -386,6 +386,7 @@
                         <outlet property="scrollConstraintsHeight" destination="YqD-73-PcA" id="Ikz-aA-MqD"/>
                         <outlet property="searchTextField" destination="1MU-6C-jzu" id="F87-Rf-fBf"/>
                         <outlet property="timeTopConstraint" destination="WMq-TB-vtH" id="PIB-WF-ott"/>
+                        <outlet property="topBarView" destination="Bbo-Il-ky7" id="xa9-Y8-phK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUo-ll-gAp" sceneMemberID="firstResponder"/>

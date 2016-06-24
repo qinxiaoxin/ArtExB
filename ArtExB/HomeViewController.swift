@@ -31,6 +31,7 @@ enum ArtExBSelectLanguage: Int {
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet weak var blurViewContainer: UIView!
     var eXBArray = [EXBModel]()
     
     var blurView : UIVisualEffectView?
@@ -39,8 +40,6 @@ class HomeViewController: UIViewController {
     var menuLastHeight: CGFloat?
     
     @IBOutlet weak var topBarView: UIView!
-    
-    @IBOutlet weak var blurViewContainer: UIView!
     
     @IBOutlet weak var searchTextField: UITextField! {
         didSet {
