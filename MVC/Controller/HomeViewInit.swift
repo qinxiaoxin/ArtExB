@@ -24,7 +24,7 @@ extension HomeViewController {
 //                print("response = \(response)")
 //        }
         
-        Alamofire.request(.GET, "http://www.artistpano.com/app").responseJiHtml { (response) -> Void in
+        Alamofire.request(.GET, "http://www.artexb.com").responseJiHtml { (response) -> Void in
             if  let jiHtml = response.result.value {
                 if let aRootNode = jiHtml.xPath("//body/div[@class='cell item']"){
                     for aNode in aRootNode {
@@ -37,7 +37,7 @@ extension HomeViewController {
                         let weburl = aNode.xPath("./span[@class='weburl']").first?.content
                         let artical = aNode.xPath("./span[@class='artical']").first?.content
                         
-                        let model = EXBModel(name: name! ?? "", coverURL: imageurl! ?? "", webURL: weburl! ?? "", artist: artist! ?? "", curator: curator! ?? "", time: time! ?? "", venue: venue! ?? "", artical: artical! ?? "")
+                        let model = EXBModel(name: name ?? "", coverURL: imageurl ?? "", webURL: weburl ?? "", artist: artist ?? "", curator: curator ?? "", time: time ?? "", venue: venue ?? "", artical: artical ?? "")
                         
                         self.eXBArray.append(model)
                         

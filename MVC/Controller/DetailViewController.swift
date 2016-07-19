@@ -54,7 +54,11 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var eXBVenue: UILabel!
     
-    @IBOutlet weak var eXBArticle: UILabel!
+    @IBOutlet weak var eXBArticle: UILabel! {
+        didSet {
+            eXBArticle.numberOfLines = 0
+        }
+    }
     
     var extendButton = UIButton()
     var enterButton: UIButton!

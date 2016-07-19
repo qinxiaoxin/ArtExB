@@ -21,7 +21,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: self.view.frame.width / 2 + 68)
+        return CGSize(width: view.frame.width, height: view.frame.width * 225 / 375)
     }
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {

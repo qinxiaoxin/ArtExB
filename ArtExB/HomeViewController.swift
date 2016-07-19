@@ -56,8 +56,8 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var logoImageView: UIImageView! {
         didSet {
-            logoImageView.userInteractionEnabled = true
-            logoImageView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(HomeViewController.logoAction)))
+//            logoImageView.userInteractionEnabled = true
+//            logoImageView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(HomeViewController.logoAction)))
         }
     }
     

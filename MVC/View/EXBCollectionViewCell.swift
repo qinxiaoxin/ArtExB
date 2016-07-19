@@ -12,7 +12,11 @@ let NSBundleURL = NSURL(fileURLWithPath: NSBundle.mainBundle().bundlePath)
 
 class EXBCollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var coverImageView: UIImageView! {
+        didSet {
+            coverImageView.layer.masksToBounds = true;
+        }
+    }
     
     @IBOutlet weak var name: UILabel!
     
