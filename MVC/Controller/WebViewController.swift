@@ -30,6 +30,8 @@ class WebViewController: UIViewController, UIWebViewDelegate {
         
         webView.loadRequest(NSURLRequest(URL: NSURL(string: model!.webURL)!))
         
+        webView.delegate = self
+        
     }
     
     private func initView() {
