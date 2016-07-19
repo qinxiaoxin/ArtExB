@@ -7,4 +7,5 @@ target 'ArtExB' do
  pod 'Alamofire'
  pod 'Kingfisher'
  pod 'Ji'
+ pod 'Refresher'
 end

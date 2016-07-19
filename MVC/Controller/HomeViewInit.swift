@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import Alamofire
 import Ji
+import Refresher
 
 let EXBCollectionViewTopInset: CGFloat = 50
 let EXBCollectionViewBottomInset: CGFloat = 30
@@ -62,10 +63,24 @@ extension HomeViewController {
         eXBCollectionView?.dataSource = self
         eXBCollectionView?.delegate = self
         eXBCollectionView?.contentInset = UIEdgeInsets(top: EXBCollectionViewTopInset, left: 0, bottom: EXBCollectionViewBottomInset, right: 0)
+        
+        //refresher
+//        eXBCollectionView?.addPullToRefreshWithAction({ 
+//            NSOperationQueue().addOperationWithBlock {
+//                self.fetchModel()
+//                NSOperationQueue.mainQueue().addOperationWithBlock {
+//                    self.eXBCollectionView!.stopPullToRefresh()
+//                }
+//            }
+//        })
+        
         view.insertSubview(eXBCollectionView!, belowSubview: topBarView)
+        
+        
         if eXBCollectionView != nil {
             fetchModel()
         }
+        
     }
     
     

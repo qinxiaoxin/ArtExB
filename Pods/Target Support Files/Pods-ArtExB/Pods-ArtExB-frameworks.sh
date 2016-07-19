@@ -87,11 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ArtExB/Alamofire.framework"
   install_framework "Pods-ArtExB/Ji.framework"
   install_framework "Pods-ArtExB/Kingfisher.framework"
+  install_framework "Pods-ArtExB/Refresher.framework"
   install_framework "Pods-ArtExB/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ArtExB/Alamofire.framework"
   install_framework "Pods-ArtExB/Ji.framework"
   install_framework "Pods-ArtExB/Kingfisher.framework"
+  install_framework "Pods-ArtExB/Refresher.framework"
   install_framework "Pods-ArtExB/SnapKit.framework"
 fi

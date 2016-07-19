@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Refresher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2367E1BD4345339493AF421B17A0F40E</key>
+		<key>1852558A9DDA6D2230B3662CE48DC504</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9CFA0BC58743E7F44FCEEABC66B48293</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C4F1DB440B42642636E376448A196E87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E96E13C4D3B5B5FC0651440734C2BF4D</key>
+		<key>D101F42C98C1642563B3F657FED544C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F92785959DF4B3D055AC2DA55D27A8F8</key>
+		<key>E96E13C4D3B5B5FC0651440734C2BF4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -72,7 +72,6 @@ class HomeViewController: UIViewController {
 
     var eXBCollectionView: UICollectionView?
     
-    
     var menuLanguage: ArtExBSelectLanguage? {
         didSet {
             resetMenu()
